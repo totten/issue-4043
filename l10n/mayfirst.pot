@@ -1,0 +1,1860 @@
+#: ./CRM/Mayfirst/Page/Calculate.php
+msgid "May First Membership Dues Calculator"
+msgstr ""
+
+#: ./CRM/Mayfirst/Page/Pay.php ./CRM/Mayfirst/Page/Save.php
+msgid "May First Membership"
+msgstr ""
+
+#: ./CRM/Mayfirst/Page/PayPal.php
+msgid "PayPal"
+msgstr ""
+
+#: ./CRM/Mayfirst/Page/PayPal.php
+msgid "Sorry, something went wrong when we tried to send you off to Pay Pal. Please email support@mayfirst.org to help get this situation resolved."
+msgstr ""
+
+#: ./CRM/Mayfirst/Page/Thanks.php
+msgid "Thank you for your payment!"
+msgstr ""
+
+#: ./CRM/Mayfirst/Page/Thanks.php
+msgid "Payment Complete"
+msgstr ""
+
+#: ./CRM/Mayfirst/Page/Thanks.php
+msgid "Your membership dues payment has been successfully applied."
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "The membership was created, but I failed to update the Civi contact with the external identifier: %1. Exception: %2"
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "Please ensure group short name is all lower case and only letters."
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "That short group name already exists, please try a different one."
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "That member name already exists, maybe they are already members?"
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "That short name is in use as a login. Please choose another."
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "That domain name is in use. Please check to see if this membership has already been created, perhaps under a different name?"
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "Something went wrong creating the membership. Membership creation failed"
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "Something went wrong creating the contact."
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "Something went wrong creating the hosting order."
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "Something went wrong creating the membership. Unique unix group creation failed."
+msgstr ""
+
+#: ./Civi/Api4/Action/ControlPanel/UpdateQuota.php
+msgid "Something went wrong updating the membership: %1."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "You have specified a plan that does not exist: '%1'."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "You have specified an income that does not exist: '%1'."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "Your income level cannot be higher then your plan."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "You have specified an invalid frequency: %1."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "We do not support that currency."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "Please enter either 0 or 1 for hosting benefits."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "Please enter a number greater then 0."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "Virtual Private Servers are not allowed without hosting benefits."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "Extra storage is not allowed without hosting benefits."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "If you need this much storage, please move to the next higher membership plan or if you are at the top, contact support for assistance."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "You must include income if you specify virtual private servers."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "You must have at least as many CPUs as virtual private servers."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Calculate.php
+msgid "You must have at least one GB of RAM per VPS."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Schedule.php
+msgid "That is not a valid currency."
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Schedule.php
+msgid "Less than %1 %2"
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Schedule.php
+msgid "Greater than %1 %2"
+msgstr ""
+
+#: ./Civi/Api4/Action/Dues/Schedule.php
+msgid "Between %1 and %2 %3"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "That entity is not allowed: %1"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "Failed to parse the given date: %1"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "Failed to extract control panel member id from results:"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "Failed to get a non-zero total amount for:"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "Failed to find invoice date for:"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/ActivateMembership.php
+msgid "Failed to update the membership - has it already been activated?"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/AddRelatedContact.php
+msgid "Your contact must include a value for %1."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/AddRelatedContact.php ./Civi/Api4/Action/MayfirstMember/Save.php ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Your token does not seem valid."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/AddRelatedContact.php ./Civi/Api4/Action/MayfirstMember/Save.php
+msgid "Your token is not authorized to make changes to your membership."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/AddRelatedContact.php
+msgid "The contact you are entering is not currently related to your membership."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/FlushCache.php
+msgid "Your token didn't work when trying to flush the cache."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Your token has expired. Please request a new one."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Your token didn't work. Sometimes links are broken due to a line break in email messages. If you clicked on a link, try copying and pasting the token instead."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php
+msgid "Sorry, you are not authorized to edit your membership. Only Admin and Technical contacts can do that."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php ./Civi/Api4/Action/MayfirstMember/RemoveRelatedContact.php
+msgid "Invalid Token."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "The member contact for the membership id %1 no longer exists. Please contact support for help resolving this issue."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Membership is cancelled for membership id %1."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php ./ang/mayfirst/calculate.js ./ang/mayfirst/review.html ./ang/mayfirst/review.js ./ang/mayfirst/save.html ./ang/mayfirst/save.js
+msgid "English"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php ./ang/mayfirst/calculate.js ./ang/mayfirst/review.html ./ang/mayfirst/review.js ./ang/mayfirst/save.html ./ang/mayfirst/save.js
+msgid "Spanish"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Income Range: "
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Hosting Plan: "
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Base fee:"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "GB included"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "GB extra storage"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php ./Civi/Api4/Action/MayfirstMember/Validate.php ./ang/mayfirst/calculate.html ./ang/mayfirst/pay.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Virtual Private Servers"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "CPUs"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "GBs of RAM"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "GBs of SSD"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php ./ang/mayfirst/save.html
+msgid "Admin"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php ./ang/mayfirst/save.html
+msgid "Technical"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/ResendToken.php
+msgid "'%1' did not look like a valid email."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/SubmitPayment.php
+msgid "Invalid token given when submitting a membership renewal."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/SubmitPayment.php
+msgid "There is already a recurring contribution set for this membership that is in progress."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/SubmitPayment.php
+msgid "We can only process payments in USD."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/SubmitPayment.php
+msgid "Failed to process contribution."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/UploadReceipt.php
+msgid "No file was uploaded. Please select a file to upload first."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/UploadReceipt.php
+msgid "Your token was not included with your file upload."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/UploadReceipt.php
+msgid "Your token is invalid."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/UploadReceipt.php
+msgid "Failed to lookup custom field id."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please pass a valid page."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php ./ang/mayfirst/save.html
+msgid "City"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Membership Type"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php ./ang/mayfirst/save.html
+msgid "Country"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "State or Province"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "About yourself"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "First name"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Email address"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Preferred Language"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Membership type must be Individual or Organization."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid language."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "We have already received your membership request. Please be patient while we process the request!"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Sorry, that organization name is already taken in our system. Or are you already a member?!?"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Sorry, that organization name is already taken in our system. If you are re-joining after your membership expired, please email info@mayfirst.org to get started again."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid selection for hosting benefits."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid currency."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid membership payment frequency."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid selection for income, should be a number between 1 and 4."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid selection for plan, should be a number between 1 and 4."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Your plan cannot be lower then your income range."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "That does not seem like a valid domain name (only 6 domain parts are allowed): %1"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Your extra storage exceeds the limit. Please choose a higher plan instead."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Extra storage cannot be a negative number."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please choose a whole number for extra storage."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please enter a whole number for extra storage. Decimals are not allowed."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "You are welcome to lower your plan! But, we cannot handle that without human intervention. Please contact support to complete that process:."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "You are welcome to lower your extra storage! But, we cannot handle that without human intervention. Please contact support to complete that process:."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Virtual private servers and related settings are only available if you select hosting benefits."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "CPU"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "RAM"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Solid state drive"
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "The value for %1 should be a number."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "The value for %1 should be a whole number, not a fraction."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Virtual private servers should be a number."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "CPU should be a number."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "RAM should be a number."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "SSD should be a number."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "You must have at least as many CPUs as Virtual Private Servers."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "You must have at least 1 GB of RAM per virtual private server."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please add at least one Virtual Private Server before adding CPU, RAM or SSD."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please add SSD in increments of 5 GB."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please limit your initial request to two virtual private servers. We have plenty to go around but need have a conversation with you on timing before we can commit to more."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please limit your initial request to no more then 4 CPUs per virtual private server. We have plenty to go around but need to discuss to ensure we can provision in a timely manner."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please limit your initial request to no more then 8 GB RAM per virtual private server. We have plenty to go around but need to discuss to ensure we can provision in a timely manner."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please limit your initial request to no more then 20 GB SSD per virtual private server. We have plenty to go around but need to discuss to ensure we can provision in a timely manner."
+msgstr ""
+
+#: ./Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "%1 field is required."
+msgstr ""
+
+#: ./Civi/Mayfirst/Email.php
+msgid "Failed to find a membership with that id."
+msgstr ""
+
+#: ./Civi/Mayfirst/Email.php
+msgid "The membership is in the %1 state - we don't have a template for that."
+msgstr ""
+
+#: ./Civi/Mayfirst/Email.php
+msgid "Please set the workflow name before sending the email."
+msgstr ""
+
+#: ./Civi/Mayfirst/Email.php
+msgid "No recipients! Does this membership have any admin contacts? Membership Id: %1"
+msgstr ""
+
+#: ./Civi/Mayfirst/Email.php
+msgid "Could not find the contact id for this membership: %1."
+msgstr ""
+
+#: ./Civi/Mayfirst/Email.php
+msgid "Failed to find a message template matching the work flow name: %1."
+msgstr ""
+
+#: ./Civi/Mayfirst/Email.php
+msgid "There is no HTML content in the message template matching the work flow name: %1."
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "Token type should be edit or pay."
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "Failed to generate the token. No matching contact hash for that membership id."
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "Could not find membership id when re-calculating dues."
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "The CONTROL_PANEL_USER constant is not defined."
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "There was a curl error connecting to the API: %1."
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "The control panel did not respond properly: %1."
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "The control panel reported an error: %1"
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "You are indicating that the membership should be advanced\n        %1 terms, but your payment (%2) seems way to low compared to what should be\n        owed (%3). Please check the calculated membership end date to make sure it's\n        what you expect."
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "You are indicating that the membership should be advanced\n        %1 terms, but your payment (%2) is more than twice what should be\n        owed (%3). Please check the calculated membership end date to make sure it's\n        what you expect."
+msgstr ""
+
+#: ./Civi/Mayfirst/Utils.php
+msgid "Adjusting end date from %1 to %2 due to under payment."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Benefits"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Currency"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Income"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Services"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Extra"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html
+msgid "Summary"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "May First Movement Technology Logo with dandellion coming out of earth."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html
+msgid "Welcome to the May First dues calculator. May First uses a sliding scale dues structure based on your income and resource needs. You can use this calculator to determine how much you would be expected to pay given the information you provide."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/pay.html ./ang/mayfirst/save.html
+msgid "Hosting Benefits"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "May First members collectively own our technology infrastructure and member dues support our server costs and staff."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html
+msgid "I would like full hosting benefits including web site hosting and e-mail"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Most members choose to use our full hosting benefits option. This option includes access to services most members will need and allows for the creation of multiple web sites, e-mails, and Nextcloud accounts. The cost of full hosting benefits is based on a sliding scale depending on your income level and any additional resources needed."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Learn more about hosting benefits."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "I just want basic membership"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Members can also choose to pay dues of %1/year USD (%2 MXN) for a basic membership. This is the minimal requirement to join our cooperative and includes the benefit of one email address and one Nextcloud account (for file sharing) and a combined total of 10GB of disk space. Web site hosting is not included with the basic membership."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "You may change your hosting benefits from basic to full benefits at any time. If you want to change from full benefits to basic after starting your membership, that is also allowed, but you will need to contact support for assistance."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Previous"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/pay.html ./ang/mayfirst/save.html
+msgid "Next"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "USD - US Dollars"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "MXN - Mexican pesos"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "May First members can choose to pay membership dues in either\n            the US Dollars (USD) or Mexican Pesos (MXN). If you choose to pay in\n            Mexican Pesos you may request a local fiscal receipt (\"factura\") for\n            tax purposes. If you pay in MXN now, the current exchange rate is set\n            to 1 USD = %1 MXN. The exchange rate will be updated periodically\n            and may change when your dues are renewed."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Payment frequency"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Monthly"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Annual"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Would you like to pay annually or monthly? Please note: if you pay monthly, your only payment option is by credit card. If you pay annually you may mail a check. Monthly payments are not available if you pay in MXN."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "If registering as an individual please indicate your approximate annual income range. If registering as an organization please use your organization's annual operating budget to determine your income range. If it varies from year to year, use the amount you project for this year. No formal documentation is required however we depend on your honesty and commitment to pay what you can."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Annual Income Range"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Income Range 1: "
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Income Range 2: "
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Income Range 3: "
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Income Range 4: "
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Based on your previously selected Income range the following membership plans are available to you. You cannot choose a plan level lower then your previously selected income range level, but you can choose a higher plan if you would like to pay more in dues and receive more disk space. You can also change this setting after you join."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Hosting Plan"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Plan 1: "
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "per year"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "GB disk space"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Plan 2: "
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Plan 3: "
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Plan 4: "
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Choose the services and storage that best fit your needs. If you cannot afford these services you may request a dues reduction on the final confirmation page. What's a GB? What do you mean by disk space? Disk space refers to the amount of space reserved on our server to hold your email messages, web site, files and databases. A GB, which stands for gigabyte, is a unit of measurement. If you are unsure how much space you need, we suggest you choose the default plan for your income range level."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Extra Storage"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Optional:"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Would you like additional storage? Please enter the number of extra Gigabytes that you would like. If you are not sure, you can always request additional space later on. At your selected hosting plan level, each extra 10GB costs the following amount per year: "
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "GB limit"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Virtual Private Server"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Standard web site hosting is provided on servers that share member workloads and are managed by May First staff. All above hosting plans already include user level access to configure your web site on our standard servers. However if instead you require your own dedicated server(s) to configure the operating system and underlying software stack yourself you can choose \"Yes\" below to add a vps to your membership. Most members do not require this option."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "No"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Yes"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html
+msgid "If you would like a virtual server, click Yes. If you are not sure, choose No. You can always add a virtual server later."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "If you would like to add virtual private servers to your membership or change your existing virtual private server settings please contact support so they can be provisioned in a timely way."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html
+msgid "Would you like one or more virtual private servers? Each server is allocated a 24GB system disk. You can optionally choose to allocate a spinning disk partition derived from your selected hosting plan's total allotted disk space. Click the previous button if you would like to increase your total storage to accomodate more disk space for your virtual private server. You must specify at least one CPU and at least one GB of RAM per virtual private server that you choose. If you are adding more than one VPS and adding additional RAM and CPUs our support team will be in contact to ask how you want those resources distributed between each VPS."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Number of Virtual Private Servers"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html
+msgid "Please indicate how many virtual private servers you would like (limit: 2, please contact support to request more). Each virtual private server's base price is calculated on sliding scale based on income range. Based on your previously selected income range, the virtual private server cost is: %1 %2 per month."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Cores"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Please indicate how many CPU cores you would like (limit 4). Each CPU core is %1 %2 per month."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "GB"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "How much total RAM distributed between your virtual private servers? Each GB of RAM is %1 %2 per month. Limit: 8."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "SSD"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "How many GB of SSD would you like distributed between your virtual private servers? The cost is %1 %2 per year per GB of SSD with a limit of 20 GB."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html
+msgid "Below is a summary of your choices along with the total cost."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Hosting Benefits?"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "No Thanks. Just one user account is fine."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Yes, full hosting benefits."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Income Range"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Range"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Plan"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Base cost:"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "per"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Base disk space:"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Number of CPUs"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "RAM (in GB)"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Solid State Disk Space (in GB)"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/pay.html ./ang/mayfirst/save.html
+msgid "Exchange Rate"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Total Amount Due:"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "each"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.html ./ang/mayfirst/save.html
+msgid "Total Disk Space:"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.js ./ang/mayfirst/pay.js ./ang/mayfirst/review.js ./ang/mayfirst/save.js ./js/edit-membership.js ./js/summary.js
+msgid "mayfirst"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.js ./ang/mayfirst/review.js ./ang/mayfirst/save.js
+msgid "Sorry, there was an error."
+msgstr ""
+
+#: ./ang/mayfirst/calculate.js ./ang/mayfirst/save.js
+msgid "Year"
+msgstr ""
+
+#: ./ang/mayfirst/calculate.js ./ang/mayfirst/save.js
+msgid "Month"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "To begin, we need either your membership renewal token or your email address so we can send you your membership renewal token."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Membership renewal token"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html ./ang/mayfirst/save.html
+msgid "Email"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Your payment has been processed. Thank you!"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Your expiration date will be extended once the transfer is confirmed."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Membership Summary"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html ./ang/mayfirst/review.html ./ang/mayfirst/save.html ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl ./templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "Member Name"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html ./ang/mayfirst/review.html
+msgid "Membership Status"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Expiration Date"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Renewal Amount"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Membership Details"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Please carefully review your details and your contacts. If your income has changed, please first update your account because it may change how much you owe."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Member income range, hosting plan, and extra storage"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Not selected"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Contacts"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Contact Privileges: All contacts receive membership notices and voting tokens and can pay dues. Admin contacts can change your membership details and receive notifications when payments are due. Technical contacts can change your membership details and receive control panel password reset notifications."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Change Membership Details"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Payment"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Automatic renewal"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Checking this box indicates that your credit card will be automatically charged when your membership expires."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Note: Monthly membership are always automatically renewed each month."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "NOTE: This membership has automatic renewal enabled! Dues will be automatically charged. You probably do not want to submit a new payment unless you want to make a one-time payment to extend your membership expiration date. If you would like to provide a little extra support, we would welcome a donation."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Donate to May First."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Pay by credit card"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Pay by PayPal"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Please enter you credit card information to renew your membership."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Please upload a screen shot or PDF documenting your payment transfer. Your membership status will not change until a human is able to review your receipt."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Optional: Please send a factura. If you would like a factura, make sure your receipt is sent later than the last day of billing month and it includes all your tax information."
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Upload"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "If you are unable to pay by credit card, please send a check, made out to \"May First Movement Technology\", to:"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "In the name of"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Bank"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Account Number"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Branch Address"
+msgstr ""
+
+#: ./ang/mayfirst/pay.html
+msgid "Clabe number"
+msgstr ""
+
+#: ./ang/mayfirst/pay.js
+msgid "That did not look like a valid token."
+msgstr ""
+
+#: ./ang/mayfirst/pay.js
+msgid "Sorry, we hit a problem. "
+msgstr ""
+
+#: ./ang/mayfirst/pay.js
+msgid "Make the payment"
+msgstr ""
+
+#: ./ang/mayfirst/pay.js
+msgid "Please enter a token or email address"
+msgstr ""
+
+#: ./ang/mayfirst/pay.js
+msgid "Your email is not linked to any memberships."
+msgstr ""
+
+#: ./ang/mayfirst/pay.js
+msgid "An email was sent with your token."
+msgstr ""
+
+#: ./ang/mayfirst/pay.js
+msgid "May First Membership Renewal"
+msgstr ""
+
+#: ./ang/mayfirst/pay.js
+msgid "There was an error processing your credit card and, sadly, you do not have permission to see that error. Please contact support."
+msgstr ""
+
+#: ./ang/mayfirst/pay.js
+msgid "Please click browse and select a file to upload"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Pending Membership Requests"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Why Join"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Date"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Process"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Process Membership Request"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Cancel and return to list"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Summary of Request"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Step 1: Review details"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Review the information provided. Right click on the member name and edit in a new tab to fix obvious typos."
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Join Date"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Member Type"
+msgstr ""
+
+#: ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Member Location"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Contact Info"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Contact Preferred Language"
+msgstr ""
+
+#: ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Domain Name"
+msgstr ""
+
+#: ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Additional instructions for virtual private servers"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Dues Reduction Description"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Total Amount Due (localized):"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Step 2: Activate the membership"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Change the status from \"Requested\" to \"Grace\" to activate the membership and enable the member to pay their initial dues."
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Make membership active"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Send Welcome Email"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Welcomer"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Optionally, choose a member of the welcome committee to cc: on this message so they know to follow up with a more in-depth welcome."
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Message"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Type a brief message that will be appended to the top of the standard welcome email."
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Step 3: Send welcome message"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Send an email that lets them know their membership is approved and provides a link to pay their dues."
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Send Welcome Message"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Setup Control Panel Items"
+msgstr ""
+
+#: ./ang/mayfirst/review.html ./ang/mayfirst/save.html
+msgid "Organization Name"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Allocation Quota"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Short Name"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Contact First Name"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Contact Last Name"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Notification Email"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Step 4: Setup their control panel items"
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "This step also sends an email with login details."
+msgstr ""
+
+#: ./ang/mayfirst/review.html
+msgid "Create control panel items"
+msgstr ""
+
+#: ./ang/mayfirst/review.js
+msgid "The welcome email was sent."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Welcome"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "About"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Confirm"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Welcome!"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "May First Movement Technology is a non-profit cooperative that"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "engages in building movements by advancing the strategic use and collective control of technology for local struggles, global transformation, and emancipation without borders."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "May First engages in movement organizing and provides hosting services as a benefit of membership. If you agree with our mission, then you are welcome to join. All members are expected to abide by our"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Membership Agreement"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "and are invited to engage in our decision making process."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Unless labeled optional, all fields are required."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Organization"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Individual"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Please indicate if your membership is individual, or on behalf of an organization. Organizational members get two votes and individual members get one vote in our annual elections, otherwise the membership types receive the same benefits."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Please contact support to change your membership type."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Contact Information"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "First Name"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Last Name"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Pseudonyms are acceptable."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Email Address"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Mobile Phone"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Please provide your mobile phone so we can send you SMS alerts about actions and meetings. Please use internationally formated phone number, starting with a + and country Code. US numbers should be in the format +1-555-555-5555. Mexican numbers: +52-9999999999."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "May First sends announcements in either English or Spanish depending on your preference. You can adjust this setting at any time."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Membership contacts"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Membership contacts receive all membership related email, including voting tokens."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Admin Privileges"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Permission to change your membership and also receive a notice when your membership invoices are due."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Technical Privileges"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Permission to change your membership and also receive control panel password reset emails."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Name"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Mobile"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Preferred Languge"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Privileges"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Actions"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Edit"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Delete"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Click to Confirm"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Add new contact"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Geographical Information"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "The geographic location fields are used for our own evaluation purposes to assess the geographic reach of the organization. If you or your organization spans multiple locations please pick the location most central to your operations."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "State or province"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Choose your country first to get an appropriate list of state/provinces."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Tell us about yourself"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Please describe your organization's mission and issue areas. We use this information to better understand our membership."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Please tell us about yourself and why you want to join May First, including your organizing or activism interests or experience. We use this information to better understand our membership."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Membership Contact"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Permissions"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "All contacts receive membership announcements and voting tokens. Optionally, specify additional permissions."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Admin:"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Can change membership, receives email when membership payment is due."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Technical:"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Can change membership, receives control panel password reset email."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Cancel"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Save"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "I would like email web site and full hosting benefits"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "May First is not a domain registrar or reseller and we cannot directly manage your lease to a specific domain such as myorganization.org but we can prepare your membership to function with any domain name you already own or plan to purchase with a 3rd party. If you do not provide a domain name at this time, we can provide a subdomain such as myorganization.mayfirst.info for your account. The domain name used for your account is not permanent. You can edit, remove or add additional domain names after you join."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "If you would like a virtual server, please click yes. If you are not sure, choose No. You can always add a virtual server later."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Would you like one or more virtual\n      private servers? Each server is allocated a 24GB system disk. You can\n      optionally choose to allocate a spinning partition from your total\n      alloted membership disk space (please specify those details in the\n      additional information section below). Click the previous button if you would\n      like to increase your total storage to accomodate more disk space for\n      your virtual private server. You must specify at least one CPU and at\n      least one GB of RAM per virtual private server that you choose.  If you are adding more than one VPS and adding additional RAM and CPUs please indicate how you want those resources distributed between each VPS in the additional\n      information section below."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Please indicate how many virtual private servers you would like (limit: 2, please contact support to request more). Each virtual private server's base price is on a sliding scale according to your income tier. Based on your chosen income tier, the virtual private server cost is: %1 %2 per month."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Additional Information"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Please let us know if you have any additional requests, including the amount of data disk space you would like initially allocated to your virtual private server."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Please review your selections below. Click the previous button to make any changes or click submit if everything is correct."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Contact"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Dues Reduction Request"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Our cooperative depends wholly on membership dues to fund our day to day operations and our ability to reduce these dues is limited however if for any reason you need to request a reduction in your dues please let us know here and a special committee of the board will meet to review your request. Please include as much information as possible, including your current budget, volunteer and paid staff and, if requesting extra resources, how you plan to use them."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Submit Membership Details"
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Warning: changes are not saved until you reach the last page and submit."
+msgstr ""
+
+#: ./ang/mayfirst/save.html
+msgid "Cancel and pay dues."
+msgstr ""
+
+#: ./ang/mayfirst/save.js
+msgid "Oops. There was an error! Please contact support. The returned error is: "
+msgstr ""
+
+#: ./ang/mayfirst/save.js
+msgid "Your changes have been saved!"
+msgstr ""
+
+#: ./ang/mayfirst/save.js
+msgid "Pay dues."
+msgstr ""
+
+#: ./ang/mayfirst/save.js
+msgid "Thank you for submitting your membership! We review all requests manually, so it may take up to 24 hours to process. When we do you will receive an email with the full details of how to get involved in May First and how to use your hosting services."
+msgstr ""
+
+#: ./mayfirst.php
+msgid "Review pending Mayfirst Membership"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First Membership Payment Token"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First Membership Payment Token (with edit privileges)"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First payment link"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First payment link with edit privileges"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First edit membership link"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First membership due date"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "Date the May First membership will end if renewed"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First membership amount due in USD"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First membership amount due in the requested currency"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "Renewal amount line only filled in if MXN is chosen (e.g.: \"= $1999 MXN\")"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "A unique id for members who need a reference number when paying, composed of the membership expiration date and membership id"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First membership currency"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First membership frequency/term (annual or monthly)"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "May First membership why join"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "The contacts first name or \"compa\" if first name is empty"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "The name of the contact holding the membership"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "The current USD-MXN exchange rate"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "Caveat about changing exchange rates, only filled in if MXN"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "A notice if automatic renewal is enabled for this membership"
+msgstr ""
+
+#: ./mayfirst.php
+msgid "The MXN amount is based on the exchange rate of 1 USD = %1 MXN (current when this email was sent). It may be different you click the link to pay."
+msgstr ""
+
+#: ./mayfirst.php
+msgid "Note: Your membership is setup with automatic renewal so there is no need to manually submit your payment. You will be charged automatically."
+msgstr ""
+
+#: ./mayfirst.php
+msgid "Note: Your membership is setup with automatic renewal. However, your membership is not current so something may be wrong. Please email info@mayfirst.org to learn more."
+msgstr ""
+
+#: ./templates/CRM/Mayfirst/Page/Pay.tpl ./templates/CRM/Mayfirst/Page/Save.tpl
+msgid "(In your native language) The current time is %1."
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "The status of the membership can fall into one of several categories:"
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "No match"
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "This membership submission is a brand new record. There are no matching records in the database."
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "One match"
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "There is a record already in the database that matches the submission's name and/or email or phone. It's probably a duplicate. If you do nothing, that matching record will be updated and made a member. However, if the matching record does not seem to be the same as the submission, then some action is required. We cannot have two contacts in the database with exactly the same name (if it is an organization) or exactly the same name and phone and/or email if it's an individual. Please contact support for more help."
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "De-dupe required"
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "There is more then one matching record in the database. You must search the database for the matching records and merge them before you can continue."
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "The contact contact determines whether this membership will be created as an Individual or an Organization, which in turn, determines whether they will be considered an organizational member with two votes or an individual member with one vote."
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "The currency determines whether the contact record will be coded as paying in USD or MXN and in which currency we will expect their payment."
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "The membership income tier determines which membership income tiers are available. You cannot pick a membership tier that is lower then your income tier."
+msgstr ""
+
+#: ./templates/CRM/mayfirst/createMembership.hlp
+msgid "The why join field helps us eliminate spam or people who don't share our goals. It also provides us an opportunity to write a personalized welcome message and start our relationship off in a good way."
+msgstr ""
+
+#: ./templates/CRM/mayfirst/renewMembership.hlp
+msgid "The contact name  should be divided in two parts, the first name and last name."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Greetings"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+msgid "You are getting this email because someone (hopefully you) tried to pay your May First dues online but did not have your membership token. So, here it is!"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+msgid "Membership Due Date"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Amount Due"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Membership Renewal period"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Payment Link"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Payment Token"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Reference Number"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "May First Movement Technology is a people of color led, democratic organization helping to build the movement for global transformation and emancipation without borders."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesPaymentInfo/subject.tpl
+msgid "May First Dues Links for: "
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+msgid "This email is a reminder that it is time to pay your May First membership dues."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Due Date"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Membership renewal term/frequency"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Pay your dues online by clicking this link"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+msgid "Your support is critical for our project to continue. It both pays for our organizaing works and also the servers, electricity and labor to operate our members&#39; web sites, email accounts, video conferencing and all the other technology services our movement depends on."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "If you have any questions about your membership, what services we offer, or how you can learn more about May First, please reply to this email."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Want to get more involved in building our movements digital autonomy? We need your help! No technology skills are needed. We are looking for folks to join our Engagement and Communications Team and our Technology, Infrastructure and Services Team. More info:"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Thank you for your support!"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderActive/subject.tpl
+msgid "May First Dues Invoice for: "
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+msgid "You are receiving this email because your membership is expired and your resources either have been disabled or are scheduled to be disabled."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+msgid "Please click the link below to pay your dues."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+msgid "We can\nonly keep your hosting resources on our servers for 3 months after your grace\nperiod ends. After 3 months we will permanently delete your data to make room for\nother members on our collectively owned servers."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Your support is critical for our project to continue. It both pays for our organizaing works and also the servers, electricity and labor to operate our members&#39; web sites, email accounts, video conferencing and all the other technology services running on our servers."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "If you would like to cancel your membership, please email info@mayfirst.org."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderExpired/subject.tpl
+msgid "May First Membership is expired, resources disabled for: "
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "You are receiving this email because your membership is in the grace status. That means you are behind on your dues!"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Please click the link below to pay your dues. We allow a 2 month grace period after which your hosting services will be disabled."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstDuesReminderGrace/subject.tpl
+msgid "May First Dues Reminder for: "
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstNotifyNewMemberSignup/html.tpl
+msgid "Please review the membership request:"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstNotifyNewMemberSignup/html.tpl
+msgid "Pending requests"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstNotifyNewMemberSignup/subject.tpl
+msgid "New May First Membership Signup"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstNotifyUploadedReceipt/html.tpl
+msgid "A member has uploaded a receipt:"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstNotifyUploadedReceipt/html.tpl
+msgid "Review and update the contribution status"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstNotifyUploadedReceipt/subject.tpl
+msgid "Member uploaded a receipt"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "May First Member Payment Receipt"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "Payment Date"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "Payment Amount"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "Transaction ID"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "Status"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "paid in full"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstPaymentReceipt/subject.tpl
+msgid "May First Membership Payment Receipt"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstRequestReceived/html.tpl
+msgid "Thank you for submitting your May First membership request. We review\neach request manually, which can take up to a few days so please be patient. If\nyou have any questions please feel free to reply to this email."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstRequestReceived/subject.tpl
+msgid "May First Membership Request Received"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Welcome! You are now an official member of May First Movement Technology, a people of color led, democratic organization helping to build the movement for global transformation and emancipation without borders."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Your membership is currently in the Grace status, but you can take care of that by following the link below to contribute your share to our cooperative project."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Member Name:"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Amount Due:"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Payment Link:"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Click on this link to pay your dues or modify your membership details."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Payment Token:"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "May First is your organization. Please take a moment to <a %1>orient yourself</a> and <a %2>learn how to get involved</a>."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Our <a %1>statement on combatting racism and sexism</a> is particularly important."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "You may also want to book mark our <a %1>control panel site</a> (for adding web sites, email address, etc)."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Lastly, our <a %1>support site</a> is the place for asking questions about how to use our hosting resources."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "You should receive, via a separate email message, instructions for how to set up  your initial login and password and how to connect to our control panel to use your hosting resources."
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Why Join?"
+msgstr ""
+
+#: ./templates/MessageTemplate/MayfirstWelcome/subject.tpl
+msgid "Welcome to May First Movement Technology!"
+msgstr ""
+

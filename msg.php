@@ -6,11 +6,16 @@ $exampleContext = [
   'contributionId' => 32,
 ];
 
-var_export([
-  'lcMessages' => Civi::settings()->get('lcMessages'),
-  'partial_locales' => Civi::settings()->get('partial_locales'),
-  'isMultilingual' => \CRM_Core_I18n::isMultilingual(),
-]);
+$environment = [
+  'version' => \CRM_Utils_System::version(),
+  'setting: lcMessages' => Civi::settings()->get('lcMessages'),
+  'setting: uiLanguages' => Civi::settings()->get('uiLanguages'),
+  'setting: partial_locales' => Civi::settings()->get('partial_locales'),
+  'optgroup: languages' => implode(' ', array_column(CRM_Core_OptionValue::getValues(['name' => 'languages'], $optionValues, 'weight', TRUE), 'name')),
+  'compute: isMultilingual' => \CRM_Core_I18n::isMultilingual(),
+  'compute: uiLanguages' => implode(' ', array_keys(\CRM_Core_I18n::uiLanguages())),
+];
+$outputs = [];
 
 foreach (['en_US', 'es_MX', 'es_ES'] as $locale) {
 
@@ -29,17 +34,15 @@ foreach (['en_US', 'es_MX', 'es_ES'] as $locale) {
   // need to send to. Each message might be different (different first name
   // and also it might be in english or spanish).
   $p->addRow($exampleContext)
-/*
-    ->context('contactId', 13)
-    ->context('membershipId', 1)
-    ->context('contributionId', 32)
-    */
     ->context('locale', $locale);
   $p->evaluate();
 
-  var_export([
-    $locale . ' no_scope' => $p->getRow(0)->render('no_scope'),
-    $locale . ' with_scope' => $p->getRow(0)->render('with_scope'),
-  ]);
+  $outputs[$locale . ' no_scope'] = $p->getRow(0)->render('no_scope');
+  $outputs[$locale . ' with_scope'] = $p->getRow(0)->render('with_scope');
 
 }
+
+var_export([
+  'environment' => $environment,
+  'outputs' => $outputs,
+]);

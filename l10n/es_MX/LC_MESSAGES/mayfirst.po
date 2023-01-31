@@ -1,0 +1,3377 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: May First\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jamie McClelland <jamie@mayfirst.coop>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: CRM/Mayfirst/Page/Calculate.php
+#, fuzzy
+msgid "May First Membership Dues Calculator"
+msgstr "May First, Calculador de Cuotas"
+
+#: CRM/Mayfirst/Page/Pay.php CRM/Mayfirst/Page/Save.php
+msgid "May First Membership"
+msgstr "Membresía de May First"
+
+#: CRM/Mayfirst/Page/PayPal.php
+msgid "PayPal"
+msgstr "PayPal"
+
+#: CRM/Mayfirst/Page/PayPal.php
+msgid ""
+"Sorry, something went wrong when we tried to send you off to Pay Pal. Please "
+"email support@mayfirst.org to help get this situation resolved."
+msgstr ""
+"Lo sentimos, algo falló cuando intentamos redirigirte a PayPal. Por favor "
+"envía un correo a support@mayfirst.org para ayudar resolver esta situación."
+
+#: CRM/Mayfirst/Page/Thanks.php
+msgid "Thank you for your payment!"
+msgstr "¡Gracias por su pago!"
+
+#: CRM/Mayfirst/Page/Thanks.php
+#, fuzzy
+msgid "Payment Complete"
+msgstr "Pago Completado"
+
+#: CRM/Mayfirst/Page/Thanks.php
+msgid "Your membership dues payment has been successfully applied."
+msgstr "Su pago de cuotas de membresía ha sido aplicado exitosamente."
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid ""
+"The membership was created, but I failed to update the Civi contact with the "
+"external identifier: %1. Exception: %2"
+msgstr ""
+"La membresía fue creada, pero no pudo actualizar el contacto Civi con el "
+"identificador externo: %1. Excepción: %2"
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "Please ensure group short name is all lower case and only letters."
+msgstr ""
+"Por favor, asegúrese de que el nombre corto del grupo sea todo en minúsculas "
+"y sólo con letras."
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "That short group name already exists, please try a different one."
+msgstr "Ese nombre de grupo corto ya existe, por favor, intente uno diferente."
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "That member name already exists, maybe they are already members?"
+msgstr "Ese nombre de miembro ya existe, ¿quizás ya son miembros?"
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "That short name is in use as a login. Please choose another."
+msgstr "Ese nombre corto ya está en uso como usuario. Por favor, elija otro."
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid ""
+"That domain name is in use. Please check to see if this membership has "
+"already been created, perhaps under a different name?"
+msgstr ""
+"Ese nombre de dominio ya está en uso. Por favor, compruebe si esta membresía "
+"ya ha sido creada, tal vez con un nombre diferente."
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid ""
+"Something went wrong creating the membership. Membership creation failed"
+msgstr ""
+"Algo salió mal al crear la membresía. La creación de la membresía ha fallado"
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+#, fuzzy
+msgid "Something went wrong creating the contact."
+msgstr "Algo salió mal al crear el orden de alojamiento."
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid "Something went wrong creating the hosting order."
+msgstr "Algo salió mal al crear el orden de alojamiento."
+
+#: Civi/Api4/Action/ControlPanel/CreateMembership.php
+msgid ""
+"Something went wrong creating the membership. Unique unix group creation "
+"failed."
+msgstr ""
+"Algo salió mal al crear la membresía. Ha fallado la creación del grupo UNIX "
+"único."
+
+#: Civi/Api4/Action/ControlPanel/UpdateQuota.php
+#, fuzzy
+msgid "Something went wrong updating the membership: %1."
+msgstr "Algo salió mal al crear el orden de alojamiento."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "You have specified a plan that does not exist: '%1'."
+msgstr "Ha especificado un plan que no existe: '%1'."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "You have specified an income that does not exist: '%1'."
+msgstr "Ha especificado un rango de ingresos que no existe: '%1'."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "Your income level cannot be higher then your plan."
+msgstr "Su nivel de ingresos no puede ser superior al nivel de su plan."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+#, fuzzy
+msgid "You have specified an invalid frequency: %1."
+msgstr "Ha especificado una frecuencia no válida."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "We do not support that currency."
+msgstr "No aceptamos esta moneda."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "Please enter either 0 or 1 for hosting benefits."
+msgstr "Por favor, introduzca 0 o 1 para los beneficios de alojamiento."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "Please enter a number greater then 0."
+msgstr "Por favor, introduzca un número mayor que 0."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "Virtual Private Servers are not allowed without hosting benefits."
+msgstr ""
+"Los Servidores Privados Virtuales no están permitidos sin activar los "
+"beneficios del alojamiento."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "Extra storage is not allowed without hosting benefits."
+msgstr ""
+"No se permite el almacenamiento adicional sin beneficios de alojamiento."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid ""
+"If you need this much storage, please move to the next higher membership "
+"plan or if you are at the top, contact support for assistance."
+msgstr ""
+"Si necesitas tanto almacenamiento, por favor pasa al siguiente plan de "
+"alojamiento. Si ya estás en el último, contacta al soporte técnico para que "
+"te ayuden."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "You must include income if you specify virtual private servers."
+msgstr ""
+"Debe incluir su rango de ingresos si especifica el uso de servidores "
+"privados virtuales."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "You must have at least as many CPUs as virtual private servers."
+msgstr "Debe incluir al menos un CPU para cada servidor privado virtual."
+
+#: Civi/Api4/Action/Dues/Calculate.php
+msgid "You must have at least one GB of RAM per VPS."
+msgstr "Debe incluir al menos un GB de RAM por VPS."
+
+#: Civi/Api4/Action/Dues/Schedule.php
+msgid "That is not a valid currency."
+msgstr "No aceptamos esta moneda."
+
+#: Civi/Api4/Action/Dues/Schedule.php
+msgid "Less than %1 %2"
+msgstr "Menos de %1 %2"
+
+#: Civi/Api4/Action/Dues/Schedule.php
+msgid "Greater than %1 %2"
+msgstr "Más de %1"
+
+#: Civi/Api4/Action/Dues/Schedule.php
+msgid "Between %1 and %2 %3"
+msgstr "Entre %1 y %2 %3"
+
+#: Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "That entity is not allowed: %1"
+msgstr ""
+
+#: Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "Failed to parse the given date: %1"
+msgstr ""
+
+#: Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "Failed to extract control panel member id from results:"
+msgstr ""
+
+#: Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "Failed to get a non-zero total amount for:"
+msgstr ""
+
+#: Civi/Api4/Action/MayfirstMember/Accounting.php
+msgid "Failed to find invoice date for:"
+msgstr ""
+
+#: Civi/Api4/Action/MayfirstMember/ActivateMembership.php
+msgid "Failed to update the membership - has it already been activated?"
+msgstr "No se ha podido actualizar la membresía: ¿ya se ha activado?"
+
+#: Civi/Api4/Action/MayfirstMember/AddRelatedContact.php
+msgid "Your contact must include a value for %1."
+msgstr "Su contacto debe incluir un valor para %1."
+
+#: Civi/Api4/Action/MayfirstMember/AddRelatedContact.php
+#: Civi/Api4/Action/MayfirstMember/Save.php
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Your token does not seem valid."
+msgstr "Su ficha no parece válida."
+
+#: Civi/Api4/Action/MayfirstMember/AddRelatedContact.php
+#: Civi/Api4/Action/MayfirstMember/Save.php
+msgid "Your token is not authorized to make changes to your membership."
+msgstr "Su ficha no está autorizada para realizar cambios en su membresía."
+
+#: Civi/Api4/Action/MayfirstMember/AddRelatedContact.php
+msgid ""
+"The contact you are entering is not currently related to your membership."
+msgstr ""
+"El contacto que está introduciendo no está relacionado con su membresía "
+"actualmente."
+
+#: Civi/Api4/Action/MayfirstMember/FlushCache.php
+msgid "Your token didn't work when trying to flush the cache."
+msgstr "Tu token no ha funcionado al intentar vaciar el caché."
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Your token has expired. Please request a new one."
+msgstr "Su token ha caducado. Por favor, solicite una nueva."
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid ""
+"Your token didn't work. Sometimes links are broken due to a line break in "
+"email messages. If you clicked on a link, try copying and pasting the token "
+"instead."
+msgstr ""
+"Tu token no ha funcionado. A veces los enlaces se rompen debido a un salto "
+"de línea en los mensajes de correo electrónico. Si has hecho clic en un "
+"enlace, intenta copiar y pegar el token directamente."
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php
+msgid ""
+"Sorry, you are not authorized to edit your membership. Only Admin and "
+"Technical contacts can do that."
+msgstr ""
+"Lo sentimos, no está autorizado a editar su membresía. Sólo los contactos "
+"administrativos y técnicos de su membresía pueden hacerlo."
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+#: Civi/Api4/Action/MayfirstMember/RemoveRelatedContact.php
+msgid "Invalid Token."
+msgstr "Ficha inválida."
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid ""
+"The member contact for the membership id %1 no longer exists. Please contact "
+"support for help resolving this issue."
+msgstr ""
+"El contacto principal para el id de membreśia %1 ya no existe. Ponte en "
+"contacto con soporte técnico para que te ayuden a resolver este problema."
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Membership is cancelled for membership id %1."
+msgstr "Se ha cancelado la membresía para el id de membresía %1."
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php
+#: ang/mayfirst/calculate.js ang/mayfirst/review.html ang/mayfirst/review.js
+#: ang/mayfirst/save.html ang/mayfirst/save.js
+msgid "English"
+msgstr "Inglés"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipDetails.php
+#: ang/mayfirst/calculate.js ang/mayfirst/review.html ang/mayfirst/review.js
+#: ang/mayfirst/save.html ang/mayfirst/save.js
+msgid "Spanish"
+msgstr "Español"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Income Range: "
+msgstr "Rango de Ingresos:"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Hosting Plan: "
+msgstr "Plan de Alojamiento:"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "Base fee:"
+msgstr "Cuota base:"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "GB included"
+msgstr "GB incluidos"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "GB extra storage"
+msgstr "GB de almacenamiento adicional"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+#: Civi/Api4/Action/MayfirstMember/Validate.php ang/mayfirst/calculate.html
+#: ang/mayfirst/pay.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Virtual Private Servers"
+msgstr "Servidores Privados Virtuales"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "CPUs"
+msgstr "CPUs"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "GBs of RAM"
+msgstr "GB de RAM"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+msgid "GBs of SSD"
+msgstr "GBs de SSD"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+#: ang/mayfirst/save.html
+msgid "Admin"
+msgstr "Administrador"
+
+#: Civi/Api4/Action/MayfirstMember/GetMembershipSummary.php
+#: ang/mayfirst/save.html
+msgid "Technical"
+msgstr "Técnico"
+
+#: Civi/Api4/Action/MayfirstMember/ResendToken.php
+msgid "'%1' did not look like a valid email."
+msgstr "'%1' no parece ser un correo electrónico válido."
+
+#: Civi/Api4/Action/MayfirstMember/SubmitPayment.php
+msgid "Invalid token given when submitting a membership renewal."
+msgstr ""
+"Se ha proporcionado un token inválido al enviar la renovación de la "
+"membresía."
+
+#: Civi/Api4/Action/MayfirstMember/SubmitPayment.php
+msgid ""
+"There is already a recurring contribution set for this membership that is in "
+"progress."
+msgstr "Ya se ha programado una contribución recurrente para esta membresía."
+
+#: Civi/Api4/Action/MayfirstMember/SubmitPayment.php
+msgid "We can only process payments in USD."
+msgstr "Solo podemos procesar pagos en USD"
+
+#: Civi/Api4/Action/MayfirstMember/SubmitPayment.php
+msgid "Failed to process contribution."
+msgstr "No se ha podido procesar la contribución."
+
+#: Civi/Api4/Action/MayfirstMember/UploadReceipt.php
+msgid "No file was uploaded. Please select a file to upload first."
+msgstr ""
+"No se ha cargado ningún archivo. Por favor, seleccione un archivo para "
+"cargar primero."
+
+#: Civi/Api4/Action/MayfirstMember/UploadReceipt.php
+#, fuzzy
+msgid "Your token was not included with your file upload."
+msgstr "Su ficha no fue incluido con la carga de archivo."
+
+#: Civi/Api4/Action/MayfirstMember/UploadReceipt.php
+msgid "Your token is invalid."
+msgstr "Su ficha no es válida."
+
+#: Civi/Api4/Action/MayfirstMember/UploadReceipt.php
+msgid "Failed to lookup custom field id."
+msgstr "Fallo en la búsqueda del ID del campo personalizado."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please pass a valid page."
+msgstr "Por favor, proporciona una página válida."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php ang/mayfirst/save.html
+msgid "City"
+msgstr "Ciudad"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php ang/mayfirst/review.html
+#: ang/mayfirst/save.html
+msgid "Membership Type"
+msgstr "Tipo de Membresía"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php ang/mayfirst/save.html
+msgid "Country"
+msgstr "País"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "State or Province"
+msgstr "Estado o Provincia"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php ang/mayfirst/review.html
+#: ang/mayfirst/save.html
+msgid "About yourself"
+msgstr "Acerca de ti"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "First name"
+msgstr "Nombre"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php ang/mayfirst/review.html
+#: ang/mayfirst/save.html
+msgid "Preferred Language"
+msgstr "Idioma Preferido"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Membership type must be Individual or Organization."
+msgstr "El tipo de membresía debe ser Individual o Organización."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid language."
+msgstr "Idioma no aceptado."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"We have already received your membership request. Please be patient while we "
+"process the request!"
+msgstr ""
+"Ya hemos recibido su solicitud de membresía. Por favor, ten paciencia "
+"mientras procesamos su solicitud."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Sorry, that organization name is already taken in our system. Or are you "
+"already a member?!?"
+msgstr ""
+"Lo sentimos, el nombre de la organización ya está ocupado en nuestro "
+"sistema. ¿O ya tienes una membresía?"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Sorry, that organization name is already taken in our system. If you are re-"
+"joining after your membership expired, please email info@mayfirst.org to get "
+"started again."
+msgstr ""
+"Lo sentimos, el nombre de la organización ya está ocupado en nuestro "
+"sistema. Si estas volviendo a subscribir por que tu membresía haya vencido, "
+"por favor envía un correo electrónico a info@mayfirst.org para comenzar de "
+"nuevo."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid selection for hosting benefits."
+msgstr "Selección inválida para los beneficios de alojamiento."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid currency."
+msgstr "Moneda no aceptada."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid membership payment frequency."
+msgstr "Frecuencia de pago de membresía no válida."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid selection for income, should be a number between 1 and 4."
+msgstr ""
+"Selección inválida para los ingresos, debería ser un número entre 1 y 4."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Invalid selection for plan, should be a number between 1 and 4."
+msgstr "Selección inválida para el plan, debería ser un número entre 1 y 4."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Your plan cannot be lower then your income range."
+msgstr ""
+"Su nivel de plan no puede ser inferior a su nivel de rango de ingresos."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"That does not seem like a valid domain name (only 6 domain parts are "
+"allowed): %1"
+msgstr ""
+"Eso no parece un nombre de dominio válido (sólo se permite un dominio con "
+"hasta 6 partes.): %1"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Your extra storage exceeds the limit. Please choose a higher plan instead."
+msgstr ""
+"Su almacenamiento adicional excede el límite. Por favor, elige un plan "
+"superior."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Extra storage cannot be a negative number."
+msgstr "El almacenamiento adicional no puede ser un número negativo."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please choose a whole number for extra storage."
+msgstr "Por favor, elija un número entero para el almacenamiento adicional."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Please enter a whole number for extra storage. Decimals are not allowed."
+msgstr ""
+"Por favor, introduzca un número entero para el almacenamiento adicional. Los "
+"decimales no están permitidos."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"You are welcome to lower your plan! But, we cannot handle that without human "
+"intervention. Please contact support to complete that process:."
+msgstr ""
+"Puede reducir su nivel de plan pero no lo podemos procesar automáticamente."
+"Póngase en contacto con el servicio de soprte técnico para completar ese "
+"proceso:."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"You are welcome to lower your extra storage! But, we cannot handle that "
+"without human intervention. Please contact support to complete that process:."
+msgstr ""
+"Puede reducir su almacenamiento adicional pero no podemos procesarlo "
+"automáticamente.Por favor, póngase en contacto con el servicio de soporte "
+"técnico para completar ese proceso:."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Virtual private servers and related settings are only available if you "
+"select hosting benefits."
+msgstr ""
+"Los servidores privados virtuales y las configuraciones relacionadas sólo "
+"están disponibles si activa los beneficios del alojamiento."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php ang/mayfirst/calculate.html
+#: ang/mayfirst/save.html
+msgid "CPU"
+msgstr "CPU"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php ang/mayfirst/calculate.html
+#: ang/mayfirst/save.html
+msgid "RAM"
+msgstr "RAM"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Solid state drive"
+msgstr "Disco de estado sólido"
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "The value for %1 should be a number."
+msgstr "El valor de %1 debe ser un número."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "The value for %1 should be a whole number, not a fraction."
+msgstr "El valor de %1 debe ser un número entero, no una fracción."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Virtual private servers should be a number."
+msgstr "Los servidores privados virtuales deben ser un número."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "CPU should be a number."
+msgstr "La CPU debería ser un número."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "RAM should be a number."
+msgstr "La RAM debería ser un número."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "SSD should be a number."
+msgstr "El SSD debería ser un número."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "You must have at least as many CPUs as Virtual Private Servers."
+msgstr "Debe tener al menos tantas CPU como Servidores Virtuales."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "You must have at least 1 GB of RAM per virtual private server."
+msgstr "Debe tener al menos 1 GB de RAM por cada servidor privado virtual."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Please add at least one Virtual Private Server before adding CPU, RAM or SSD."
+msgstr ""
+"Por favor, añada al menos un Servidor Virtual antes de añadir CPU, RAM o SSD."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "Please add SSD in increments of 5 GB."
+msgstr "Por favor, añada SSD en incrementos de 5 GB."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Please limit your initial request to two virtual private servers. We have "
+"plenty to go around but need have a conversation with you on timing before "
+"we can commit to more."
+msgstr ""
+"Por favor, limite su solicitud inicial a dos servidores privados virtuales. "
+"Tenemos muchos para repartir, pero necesitamos conversar contigo sobre los "
+"plazos antes de comprometernos con más."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Please limit your initial request to no more then 4 CPUs per virtual private "
+"server. We have plenty to go around but need to discuss to ensure we can "
+"provision in a timely manner."
+msgstr ""
+"Por favor, limite su solicitud inicial a no más de 4 CPUs por servidor "
+"virtual privado. Tenemos más para repartir pero necesitamos discutirlo "
+"contigo para asegurarnos de que podemos provisionarlos en tiempo y forma."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Please limit your initial request to no more then 8 GB RAM per virtual "
+"private server. We have plenty to go around but need to discuss to ensure we "
+"can provision in a timely manner."
+msgstr ""
+"Por favor, limite su solicitud inicial a no más de 8 GB de RAM por servidor "
+"privado virtual. Tenemos más para repartir, pero necesitamos discutirlo "
+"contigopara asegurarnos de que podemos provisionarlo en tiempo y forma."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid ""
+"Please limit your initial request to no more then 20 GB SSD per virtual "
+"private server. We have plenty to go around but need to discuss to ensure we "
+"can provision in a timely manner."
+msgstr ""
+"Por favor, limite su solicitud inicial a no más de 20 GB SSD por servidor "
+"privado virtual. Tenemos más para repartir pero necesitamos discutirlo "
+"contigo para asegurarnos de que podemos provisionarlo en tiempo y forma."
+
+#: Civi/Api4/Action/MayfirstMember/Validate.php
+msgid "%1 field is required."
+msgstr "El campo %1 es obligatorio."
+
+#: Civi/Mayfirst/Email.php
+#, fuzzy
+msgid "Failed to find a membership with that id."
+msgstr "No se encuentra una membresía con este identificador."
+
+#: Civi/Mayfirst/Email.php
+msgid "The membership is in the %1 state - we don't have a template for that."
+msgstr ""
+"La membresía se encuentra con estado %1 - no tenemos una plantilla para esto."
+
+#: Civi/Mayfirst/Email.php
+msgid "Please set the workflow name before sending the email."
+msgstr ""
+"Por favor, establezca el nombre del flujo de trabajo antes de enviar el "
+"correo electrónico."
+
+#: Civi/Mayfirst/Email.php
+msgid ""
+"No recipients! Does this membership have any admin contacts? Membership Id: "
+"%1"
+msgstr ""
+"No hay destinatarios. ¿Existe algún contacto administrativo para este "
+"membresía? Id. de membresía: %1"
+
+#: Civi/Mayfirst/Email.php
+msgid "Could not find the contact id for this membership: %1."
+msgstr "No se encuentra un identificador del contacto para este membresía: %1."
+
+#: Civi/Mayfirst/Email.php
+msgid "Failed to find a message template matching the work flow name: %1."
+msgstr ""
+"No se encuentra una plantilla de mensaje que coincida con el nombre del "
+"flujo de trabajo: %1."
+
+#: Civi/Mayfirst/Email.php
+msgid ""
+"There is no HTML content in the message template matching the work flow "
+"name: %1."
+msgstr ""
+"No hay contenido HTML en la plantilla del mensaje que coincide con el nombre "
+"del flujo de trabajo: %1."
+
+#: Civi/Mayfirst/Utils.php
+msgid "Token type should be edit or pay."
+msgstr "El tipo de ficha debe ser de edición o de pago."
+
+#: Civi/Mayfirst/Utils.php
+msgid ""
+"Failed to generate the token. No matching contact hash for that membership "
+"id."
+msgstr ""
+"No se pudo generar el token. No hay un hash de contacto que coincida con ese "
+"ID de membresía."
+
+#: Civi/Mayfirst/Utils.php
+msgid "Could not find membership id when re-calculating dues."
+msgstr ""
+"No se encuentra el identificador de membresía al recalcular las cuotas."
+
+#: Civi/Mayfirst/Utils.php
+msgid "The CONTROL_PANEL_USER constant is not defined."
+msgstr "La constante CONTROL_PANEL_USER no está definida."
+
+#: Civi/Mayfirst/Utils.php
+msgid "There was a curl error connecting to the API: %1."
+msgstr "Hubo un error de curl al conectarse a la API: %1."
+
+#: Civi/Mayfirst/Utils.php
+msgid "The control panel did not respond properly: %1."
+msgstr "El panel de control no ha respondido correctamente: %1."
+
+#: Civi/Mayfirst/Utils.php
+msgid "The control panel reported an error: %1"
+msgstr "El panel de control reportó un error: %1"
+
+#: Civi/Mayfirst/Utils.php
+msgid ""
+"You are indicating that the membership should be advanced\n"
+"        %1 terms, but your payment (%2) seems way to low compared to what "
+"should be\n"
+"        owed (%3). Please check the calculated membership end date to make "
+"sure it's\n"
+"        what you expect."
+msgstr ""
+
+#: Civi/Mayfirst/Utils.php
+msgid ""
+"You are indicating that the membership should be advanced\n"
+"        %1 terms, but your payment (%2) is more than twice what should be\n"
+"        owed (%3). Please check the calculated membership end date to make "
+"sure it's\n"
+"        what you expect."
+msgstr ""
+
+#: Civi/Mayfirst/Utils.php
+msgid "Adjusting end date from %1 to %2 due to under payment."
+msgstr ""
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Benefits"
+msgstr "Beneficios"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Currency"
+msgstr "Moneda"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Income"
+msgstr "Ingresos"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Services"
+msgstr "Servicios"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Extra"
+msgstr "Extra"
+
+#: ang/mayfirst/calculate.html
+msgid "Summary"
+msgstr "Resumen"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "May First Movement Technology Logo with dandellion coming out of earth."
+msgstr ""
+"May First Movement Technology logotipo con flor de diente de león saliendo "
+"de la tierra."
+
+#: ang/mayfirst/calculate.html
+msgid ""
+"Welcome to the May First dues calculator. May First uses a sliding scale "
+"dues structure based on your income and resource needs. You can use this "
+"calculator to determine how much you would be expected to pay given the "
+"information you provide."
+msgstr ""
+"Bienvenides al calculador de cuotas de May First. Usamos un estructurade "
+"cuotas de escala movíl basado en sus ingresos y recursos que utiliza.Puedes "
+"usar este calculador para determinar cuanto le correspondería pagar."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/pay.html ang/mayfirst/save.html
+msgid "Hosting Benefits"
+msgstr "Beneficios de Alojamiento"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid ""
+"May First members collectively own our technology infrastructure and member "
+"dues support our server costs and staff."
+msgstr ""
+"La membresía de May First somos propietaries colectives de nuestra "
+"infraestructura tecnológica y las cuotas de la membresía sostienen los "
+"costes de nuestres servidores y el personal."
+
+#: ang/mayfirst/calculate.html
+msgid ""
+"I would like full hosting benefits including web site hosting and e-mail"
+msgstr ""
+"Quiero los beneficios de alojamiento completos incluyendo hospedaje de "
+"sitios web y correos"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid ""
+"Most members choose to use our full hosting benefits option. This option "
+"includes access to services most members will need and allows for the "
+"creation of multiple web sites, e-mails, and Nextcloud accounts. The cost of "
+"full hosting benefits is based on a sliding scale depending on your income "
+"level and any additional resources needed."
+msgstr ""
+"La mayoría de los miembros optan por utilizar nuestra opción de beneficios "
+"de alojamiento completo. Esta opción incluye el acceso a los servicios que "
+"la mayoría de la membresía requieren y permite la creación de múltiples "
+"sitios web, correos electrónicos y cuentas de Nextcloud. El coste de los "
+"beneficios de alojamiento completo se basa en una escala móvil que depende "
+"de tu nivel de ingresos y de los recursos adicionales que necesites."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Learn more about hosting benefits."
+msgstr "Más información sobre las ventajas del alojamiento."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "I just want basic membership"
+msgstr "Sólo quiero la membresía básica"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"Members can also choose to pay dues of %1/year USD (%2 MXN) for a basic "
+"membership. This is the minimal requirement to join our cooperative and "
+"includes the benefit of one email address and one Nextcloud account (for "
+"file sharing) and a combined total of 10GB of disk space. Web site hosting "
+"is not included with the basic membership."
+msgstr ""
+"También puedes elegir pagar una cuota fija de %1/año USD (%2 MXN) para una "
+"membresía básica. Este es el requisito mínimo para unirse a nuestra "
+"cooperativa e incluye el beneficio de una dirección de correo electrónico y "
+"una cuenta de Nextcloud (para compartir archivos) y un total combinado de 10 "
+"GB de espacio en disco."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid ""
+"You may change your hosting benefits from basic to full benefits at any "
+"time. If you want to change from full benefits to basic after starting your "
+"membership, that is also allowed, but you will need to contact support for "
+"assistance."
+msgstr ""
+"Puede cambiar su membresía y agregar los  beneficios de alojamiento "
+"completos en cualquier momento. También puedes renunicar los beneficios "
+"completos y cambiara una membresía básica después de empezar tu membresía "
+"pero tendrás que ponerte en contacto con el servicio de soporte técnico para "
+"que te ayuden realizar el cambio."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Previous"
+msgstr "Anterior"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/pay.html ang/mayfirst/save.html
+msgid "Next"
+msgstr "Siguiente"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "USD - US Dollars"
+msgstr "USD - Dólares Estadounidenses"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "MXN - Mexican pesos"
+msgstr "MXN - Pesos Mexicanos"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"May First members can choose to pay membership dues in either\n"
+"            the US Dollars (USD) or Mexican Pesos (MXN). If you choose to "
+"pay in\n"
+"            Mexican Pesos you may request a local fiscal receipt "
+"(\"factura\") for\n"
+"            tax purposes. If you pay in MXN now, the current exchange rate "
+"is set\n"
+"            to 1 USD = %1 MXN. The exchange rate will be updated "
+"periodically\n"
+"            and may change when your dues are renewed."
+msgstr ""
+"La membresía de May First pueden elegir pagar sus cuotas en dólares "
+"estadounidenses (USD) o en pesos mexicanos (MXN). Si elige pagar en pesos "
+"mexicanos puede solicitar un recibo fiscal (\"factura\") para fines "
+"fiscales. Si paga en MXN, el tipo de cambio para el año en curso es de 1 USD "
+"= %1 MXN. El tipo de cambio sería actualizado periodicamente y puede cambiar "
+"cuando se renueve sus cuotas."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Payment frequency"
+msgstr "Frecuencia de pago"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Monthly"
+msgstr "Mensualmente"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Annual"
+msgstr "Anual"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"Would you like to pay annually or monthly? Please note: if you pay monthly, "
+"your only payment option is by credit card. If you pay annually you may mail "
+"a check. Monthly payments are not available if you pay in MXN."
+msgstr ""
+"¿Desea pagar anualmente o mensualmente? Por favor, toma en cuenta que si "
+"paga mensualmente, su única opción de pago es con tarjeta de crédito en USD. "
+"Si paga anualmente, puede enviar un cheque por correo en USD o realizar un "
+"depósito bancario en MXN."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"If registering as an individual please indicate your approximate annual "
+"income range. If registering as an organization please use your "
+"organization's annual operating budget to determine your income range. If it "
+"varies from year to year, use the amount you project for this year. No "
+"formal documentation is required however we depend on your honesty and "
+"commitment to pay what you can."
+msgstr ""
+"Si esta registrando como persona individual indique sus ingresos anuales "
+"aproximados. Si esta registrando como una organización utiliza el "
+"presupuesto anual de la organización para determinar su rango de ingresos. "
+"Si varía de un año a otro, utilice la cantidad que proyecte para este año. "
+"No requerimos documentación formal pero dependemos de su honestidad y "
+"compromiso de pagar lo que pueda."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Annual Income Range"
+msgstr "Rango de Ingresos Anuales"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Income Range 1: "
+msgstr "Rango de Ingresos 1:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Income Range 2: "
+msgstr "Rango de Ingresos 2:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Income Range 3: "
+msgstr "Rango de Ingresos 3:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Income Range 4: "
+msgstr "Rango de Ingresos 4:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"Based on your previously selected Income range the following membership "
+"plans are available to you. You cannot choose a plan level lower then your "
+"previously selected income range level, but you can choose a higher plan if "
+"you would like to pay more in dues and receive more disk space. You can also "
+"change this setting after you join."
+msgstr ""
+"En base a su rango de ingresos previamente seleccionado los siguientes "
+"planes de alojamiento están disponibles para ti. No puedes elegir un nivel "
+"plan inferior a tu rango de ingresos seleccionado pero puedes elegir un plan "
+"superior si quieres aumentar sus cuotas para recibir más espacio en disco. "
+"También puedes cambiar esta configuración después de registarte."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Hosting Plan"
+msgstr "Plan de Alojamiento"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Plan 1: "
+msgstr "Plan 1:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "per year"
+msgstr "por año"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "GB disk space"
+msgstr "GB de espacio en disco"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Plan 2: "
+msgstr "Plan 2:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Plan 3: "
+msgstr "Plan 3:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Plan 4: "
+msgstr "Plan 4:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"Choose the services and storage that best fit your needs. If you cannot "
+"afford these services you may request a dues reduction on the final "
+"confirmation page. What's a GB? What do you mean by disk space? Disk space "
+"refers to the amount of space reserved on our server to hold your email "
+"messages, web site, files and databases. A GB, which stands for gigabyte, is "
+"a unit of measurement. If you are unsure how much space you need, we suggest "
+"you choose the default plan for your income range level."
+msgstr ""
+"Elija los servicios y cantidad del almacenamiento que mejor ajusten a sus "
+"necesidades. Si no te alcanza para pagar la cuota indicada puedes solicitar "
+"una reducción de cuotas en la página final de confirmación ¿Qué es un GB? "
+"¿Qué se entiende por espacio en disco? El espacio en disco se refiere a la "
+"cantidad de espacio en nuestro servidor para albergar sus mensajes de correo "
+"electrónico, sitios web, archivos y bases de datos. Un GB significa "
+"gigabyte, una unidad de medida de espacio en disco. Si no está seguro de la "
+"cantidad de espacio que necesita, le sugerimos que utilice los valores "
+"predeterminados para su nivel de ingresos."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Extra Storage"
+msgstr "Almacenamiento Adicional"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Optional:"
+msgstr "Opcional:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"Would you like additional storage? Please enter the number of extra "
+"Gigabytes that you would like. If you are not sure, you can always request "
+"additional space later on. At your selected hosting plan level, each extra "
+"10GB costs the following amount per year: "
+msgstr ""
+"¿Desea almacenamiento adicional? Por favor, introduzca el número de "
+"Gigabytes adicionales que desea. Si no está seguro, siempre puede solicitar "
+"espacio adicional más adelante. Cada 10GB adicionales cuesta la siguiente "
+"cantidad por año:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "GB limit"
+msgstr "Límite GB"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Virtual Private Server"
+msgstr "Servidor Virtual"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"Standard web site hosting is provided on servers that share member workloads "
+"and are managed by May First staff. All above hosting plans already include "
+"user level access to configure your web site on our standard servers. "
+"However if instead you require your own dedicated server(s) to configure the "
+"operating system and underlying software stack yourself you can choose "
+"\"Yes\" below to add a vps to your membership. Most members do not require "
+"this option."
+msgstr ""
+"Los beneficios de alojamiento estándar son provisionados en servidores que "
+"comparten las cargas de trabajo de multiples cuentas la membresía y son "
+"administrados por el personal de May First. Si necesitas tu propio "
+"servidor(es) dedicado(s) para configurar el sistema operativo y el software "
+"instalado tu mismo, puede elegir Sí para añadir un vps a su membresía. La "
+"mayoría de las membresías no requieran esta opción."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "No"
+msgstr "No"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Yes"
+msgstr "Sí"
+
+#: ang/mayfirst/calculate.html
+#, fuzzy
+msgid ""
+"If you would like a virtual server, click Yes. If you are not sure, choose "
+"No. You can always add a virtual server later."
+msgstr ""
+"Si desea un servidor virtual, haga clic en Sí. Si no está seguro, elija No. "
+"Siempre puede añadir un servidor virtual más tarde."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid ""
+"If you would like to add virtual private servers to your membership or "
+"change your existing virtual private server settings please contact support "
+"so they can be provisioned in a timely way."
+msgstr ""
+"Si desea añadir servidores privados virtuales a su membresía o cambiar la "
+"configuración de sus servidores privados virtuales existentes, por favor, "
+"póngase en contacto con el servicio de soprte técnico para que puedan ser "
+"provisionados en tiempo y forma."
+
+#: ang/mayfirst/calculate.html
+#, fuzzy
+msgid ""
+"Would you like one or more virtual private servers? Each server is allocated "
+"a 24GB system disk. You can optionally choose to allocate a spinning disk "
+"partition derived from your selected hosting plan's total allotted disk "
+"space. Click the previous button if you would like to increase your total "
+"storage to accomodate more disk space for your virtual private server. You "
+"must specify at least one CPU and at least one GB of RAM per virtual private "
+"server that you choose. If you are adding more than one VPS and adding "
+"additional RAM and CPUs our support team will be in contact to ask how you "
+"want those resources distributed between each VPS."
+msgstr ""
+"¿Quiere uno o varios servidores\n"
+"      servidores privados? A cada servidor se le asigna un disco de sistema "
+"de 24 GB. Puede\n"
+"      opcionalmente, asignar una partición giratoria del espacio total\n"
+"      espacio total del disco de membresía. Haga clic en el botón anterior "
+"si desea\n"
+"      desea aumentar su almacenamiento total para acomodar más espacio de "
+"disco para\n"
+"      su servidor privado virtual. Debe especificar al menos una CPU y al "
+"menos\n"
+"      al menos un GB de RAM por cada servidor privado virtual que elija."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Number of Virtual Private Servers"
+msgstr "Número de Servidores Virtuales"
+
+#: ang/mayfirst/calculate.html
+#, fuzzy
+msgid ""
+"Please indicate how many virtual private servers you would like (limit: 2, "
+"please contact support to request more). Each virtual private server's base "
+"price is calculated on sliding scale based on income range. Based on your "
+"previously selected income range, the virtual private server cost is: %1 %2 "
+"per month."
+msgstr ""
+"Indique cuántos servidores privados virtuales desea (límite: 2, póngase en "
+"contacto con el servicio de asistencia para solicitar más). El precio base "
+"de cada servidor privado virtual es una escala móvil según su nivel de "
+"ingresos. Según el nivel de ingresos elegido, el coste del servidor privado "
+"virtual es: %1 %2 al mes."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Cores"
+msgstr ""
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid ""
+"Please indicate how many CPU cores you would like (limit 4). Each CPU core "
+"is %1 %2 per month."
+msgstr ""
+"Por favor, indique cuántos núcleos de CPU desea (límite 4). Cada núcleo de "
+"CPU cuesta %1 %2 al mes."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "GB"
+msgstr "GB"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"How much total RAM distributed between your virtual private servers? Each GB "
+"of RAM is %1 %2 per month. Limit: 8."
+msgstr ""
+"¿Cuánta RAM total se distribuye entre sus servidores privados virtuales? "
+"Cada GB de RAM es %1 %2 por mes. Límite: 8."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "SSD"
+msgstr "SSD"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"How many GB of SSD would you like distributed between your virtual private "
+"servers? The cost is %1 %2 per year per GB of SSD with a limit of 20 GB."
+msgstr ""
+"¿Cuántos GB de SSD desea distribuir entre sus servidores privados virtuales? "
+"El coste es de %1 %2 al año por GB de SSD con un límite de 20 GB."
+
+#: ang/mayfirst/calculate.html
+msgid "Below is a summary of your choices along with the total cost."
+msgstr ""
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Hosting Benefits?"
+msgstr "¿Beneficios de Alojamiento?"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "No Thanks. Just one user account is fine."
+msgstr "No, gracias. Una sola cuenta de usuario está bien."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Yes, full hosting benefits."
+msgstr "Sí, todas las ventajas de alojamiento."
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Income Range"
+msgstr "Rango de Ingresos"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Range"
+msgstr "Gama"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Plan"
+msgstr "Plan"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Base cost:"
+msgstr "Base de coste:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "per"
+msgstr "por"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Base disk space:"
+msgstr "Espacio de disco base:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Number of CPUs"
+msgstr "Número de CPUs"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "RAM (in GB)"
+msgstr "RAM (en GB)"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Solid State Disk Space (in GB)"
+msgstr "Espacio en disco de tipo estado sólido (en GB)"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/pay.html ang/mayfirst/save.html
+#, fuzzy
+msgid "Exchange Rate"
+msgstr "cambiar"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Total Amount Due:"
+msgstr "Cantidad Total a Pagar:"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "each"
+msgstr "cada"
+
+#: ang/mayfirst/calculate.html ang/mayfirst/save.html
+msgid "Total Disk Space:"
+msgstr "Espacio total en disco:"
+
+#: ang/mayfirst/calculate.js ang/mayfirst/pay.js ang/mayfirst/review.js
+#: ang/mayfirst/save.js js/edit-membership.js js/summary.js
+msgid "mayfirst"
+msgstr "mayo primero"
+
+#: ang/mayfirst/calculate.js ang/mayfirst/review.js ang/mayfirst/save.js
+msgid "Sorry, there was an error."
+msgstr "Lo siento, hubo un error."
+
+#: ang/mayfirst/calculate.js ang/mayfirst/save.js
+msgid "Year"
+msgstr "Año"
+
+#: ang/mayfirst/calculate.js ang/mayfirst/save.js
+msgid "Month"
+msgstr "Mes"
+
+#: ang/mayfirst/pay.html
+msgid ""
+"To begin, we need either your membership renewal token or your email address "
+"so we can send you your membership renewal token."
+msgstr ""
+"Para empezar, necesitamos su ficha de renovación de afiliación o su "
+"dirección de correo electrónico para poder enviarle su ficha de renovación "
+"de afiliación."
+
+#: ang/mayfirst/pay.html
+msgid "Membership renewal token"
+msgstr "Ficha de renovación para su membresía"
+
+#: ang/mayfirst/pay.html ang/mayfirst/save.html
+msgid "Email"
+msgstr "Envíe un correo electrónico a"
+
+#: ang/mayfirst/pay.html
+msgid "Your payment has been processed. Thank you!"
+msgstr "Su pago ha sido procesado. Gracias."
+
+#: ang/mayfirst/pay.html
+msgid "Your expiration date will be extended once the transfer is confirmed."
+msgstr ""
+
+#: ang/mayfirst/pay.html
+msgid "Membership Summary"
+msgstr "Resumen de su Membresía"
+
+#: ang/mayfirst/pay.html ang/mayfirst/review.html ang/mayfirst/save.html
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#: templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "Member Name"
+msgstr "Nombre del miembro"
+
+#: ang/mayfirst/pay.html ang/mayfirst/review.html
+msgid "Membership Status"
+msgstr "Estado de su Membresía"
+
+#: ang/mayfirst/pay.html
+msgid "Expiration Date"
+msgstr "Fecha de Caducidad"
+
+#: ang/mayfirst/pay.html
+msgid "Renewal Amount"
+msgstr "Importe de la renovación"
+
+#: ang/mayfirst/pay.html
+msgid "Membership Details"
+msgstr "Detalles de la afiliación"
+
+#: ang/mayfirst/pay.html
+msgid ""
+"Please carefully review your details and your contacts. If your income has "
+"changed, please first update your account because it may change how much you "
+"owe."
+msgstr ""
+"Por favor, revise cuidadosamente sus datos y sus contactos. Si sus ingresos "
+"han cambiado, actualice primero su cuenta porque puede cambiar la cantidad "
+"que debe contribuir."
+
+#: ang/mayfirst/pay.html
+msgid "Member income range, hosting plan, and extra storage"
+msgstr ""
+"Rango de ingresos de su membresía, plan de alojamiento y almacenamiento "
+"adicional"
+
+#: ang/mayfirst/pay.html
+msgid "Not selected"
+msgstr "No seleccionado"
+
+#: ang/mayfirst/pay.html
+msgid "Contacts"
+msgstr "Contactos"
+
+#: ang/mayfirst/pay.html
+msgid ""
+"Contact Privileges: All contacts receive membership notices and voting "
+"tokens and can pay dues. Admin contacts can change your membership details "
+"and receive notifications when payments are due. Technical contacts can "
+"change your membership details and receive control panel password reset "
+"notifications."
+msgstr ""
+"Privilegios de los contactos: Todos los contactos reciben avisos de "
+"afiliación y fichas de votación y pueden pagar las cuotas. Los contactos "
+"administrativos pueden cambiar los detalles de su afiliación y recibir "
+"notificaciones cuando los pagos vencen. Los contactos técnicos pueden "
+"cambiar los datos de afiliación y recibir notificaciones de restablecimiento "
+"de la contraseña del panel de control."
+
+#: ang/mayfirst/pay.html
+msgid "Change Membership Details"
+msgstr "Cambiar los Datos de Membresía"
+
+#: ang/mayfirst/pay.html
+msgid "Payment"
+msgstr "Pago"
+
+#: ang/mayfirst/pay.html
+msgid "Automatic renewal"
+msgstr "Renovación automática"
+
+#: ang/mayfirst/pay.html
+msgid ""
+"Checking this box indicates that your credit card will be automatically "
+"charged when your membership expires."
+msgstr ""
+"Si marca esta casilla, se cargará los pagos automáticamente en su tarjeta de "
+"crédito cuando se renueve su membresía."
+
+#: ang/mayfirst/pay.html
+msgid "Note: Monthly membership are always automatically renewed each month."
+msgstr ""
+"Nota: Las afiliaciones mensuales siempre se renuevan automáticamente cada "
+"mes."
+
+#: ang/mayfirst/pay.html
+msgid ""
+"NOTE: This membership has automatic renewal enabled! Dues will be "
+"automatically charged. You probably do not want to submit a new payment "
+"unless you want to make a one-time payment to extend your membership "
+"expiration date. If you would like to provide a little extra support, we "
+"would welcome a donation."
+msgstr ""
+
+#: ang/mayfirst/pay.html
+msgid "Donate to May First."
+msgstr ""
+
+#: ang/mayfirst/pay.html
+msgid "Pay by credit card"
+msgstr "Pagar con tarjeta de crédito"
+
+#: ang/mayfirst/pay.html
+msgid "Pay by PayPal"
+msgstr "Pagar con PayPal"
+
+#: ang/mayfirst/pay.html
+msgid "Please enter you credit card information to renew your membership."
+msgstr ""
+"Introduzca los datos de su tarjeta de crédito para renovar su afiliación."
+
+#: ang/mayfirst/pay.html
+msgid ""
+"Please upload a screen shot or PDF documenting your payment transfer. Your "
+"membership status will not change until a human is able to review your "
+"receipt."
+msgstr ""
+"Por favor, suba una captura de pantalla o un PDF que documente su "
+"transferencia de pago. El estado de su membresía no cambiará hasta que un "
+"humano pueda revisar su recibo."
+
+#: ang/mayfirst/pay.html
+msgid ""
+"Optional: Please send a factura. If you would like a factura, make sure your "
+"receipt is sent later than the last day of billing month and it includes all "
+"your tax information."
+msgstr ""
+
+#: ang/mayfirst/pay.html
+msgid "Upload"
+msgstr "Subir a"
+
+#: ang/mayfirst/pay.html
+msgid ""
+"If you are unable to pay by credit card, please send a check, made out to "
+"\"May First Movement Technology\", to:"
+msgstr ""
+"Si no puede pagar con tarjeta de crédito, envíe un cheque, a nombre de \"May "
+"First Movement Technology\", a:"
+
+#: ang/mayfirst/pay.html
+msgid "In the name of"
+msgstr "En nombre de"
+
+#: ang/mayfirst/pay.html
+msgid "Bank"
+msgstr "Banco"
+
+#: ang/mayfirst/pay.html
+msgid "Account Number"
+msgstr "Número de cuenta"
+
+#: ang/mayfirst/pay.html
+msgid "Branch Address"
+msgstr "Dirección de la sucursal"
+
+#: ang/mayfirst/pay.html
+msgid "Clabe number"
+msgstr "Número de clabe"
+
+#: ang/mayfirst/pay.js
+msgid "That did not look like a valid token."
+msgstr "Eso no parecía una ficha válida."
+
+#: ang/mayfirst/pay.js
+msgid "Sorry, we hit a problem. "
+msgstr "Lo siento, hemos encontrado un problema."
+
+#: ang/mayfirst/pay.js
+msgid "Make the payment"
+msgstr "Realice el pago"
+
+#: ang/mayfirst/pay.js
+msgid "Please enter a token or email address"
+msgstr "Por favor, introduzca un token o una dirección de correo electrónico"
+
+#: ang/mayfirst/pay.js
+msgid "Your email is not linked to any memberships."
+msgstr "Su correo electrónico no está vinculado a ninguna membresía."
+
+#: ang/mayfirst/pay.js
+msgid "An email was sent with your token."
+msgstr "Se ha enviado un correo electrónico con su ficha."
+
+#: ang/mayfirst/pay.js
+msgid "May First Membership Renewal"
+msgstr "May First Renovación de Membresía"
+
+#: ang/mayfirst/pay.js
+msgid ""
+"There was an error processing your credit card and, sadly, you do not have "
+"permission to see that error. Please contact support."
+msgstr ""
+"Hubo un error al procesar su tarjeta de crédito y lamentablemente no tiene "
+"permiso para ver ese error. Por favor, póngase en contacto con el servicio "
+"de soporte técnico."
+
+#: ang/mayfirst/pay.js
+#, fuzzy
+msgid "Please click browse and select a file to upload"
+msgstr ""
+"No se ha cargado ningún archivo. Por favor, seleccione un archivo para "
+"cargar primero."
+
+#: ang/mayfirst/review.html
+msgid "Pending Membership Requests"
+msgstr "Solicitudes de membresía pendientes"
+
+#: ang/mayfirst/review.html
+msgid "Why Join"
+msgstr "Por qué Afiliarse"
+
+#: ang/mayfirst/review.html
+msgid "Date"
+msgstr "Fecha"
+
+#: ang/mayfirst/review.html
+msgid "Process"
+msgstr "Proceso"
+
+#: ang/mayfirst/review.html
+msgid "Process Membership Request"
+msgstr "Tramitar la solicitud de mebresía"
+
+#: ang/mayfirst/review.html
+msgid "Cancel and return to list"
+msgstr "Cancelar y volver a la lista"
+
+#: ang/mayfirst/review.html
+msgid "Summary of Request"
+msgstr "Resumen de la Colicitud"
+
+#: ang/mayfirst/review.html
+msgid "Step 1: Review details"
+msgstr "Paso 1: Revisar los detalles"
+
+#: ang/mayfirst/review.html
+msgid ""
+"Review the information provided. Right click on the member name and edit in "
+"a new tab to fix obvious typos."
+msgstr ""
+"Revisa la información proporcionada. Haz clic derecho sobre el nombre de tu "
+"membresía y edite en una nueva pestaña para corregir cualquier error "
+"tipográfico."
+
+#: ang/mayfirst/review.html
+msgid "Join Date"
+msgstr "Fecha de Ingreso"
+
+#: ang/mayfirst/review.html
+msgid "Member Type"
+msgstr "Tipo de Membresía"
+
+#: ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Member Location"
+msgstr "Ubicación"
+
+#: ang/mayfirst/review.html
+msgid "Contact Info"
+msgstr "Información de contacto"
+
+#: ang/mayfirst/review.html
+msgid "Contact Preferred Language"
+msgstr "Contacto Idioma preferido"
+
+#: ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Domain Name"
+msgstr "Nombre de dominio"
+
+#: ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Additional instructions for virtual private servers"
+msgstr "Instrucciones adicionales para los servidores privados virtuales"
+
+#: ang/mayfirst/review.html
+msgid "Dues Reduction Description"
+msgstr "Descripción de la Reducción de Cuotas"
+
+#: ang/mayfirst/review.html
+#, fuzzy
+msgid "Total Amount Due (localized):"
+msgstr "Cantidad Total a Pagar:"
+
+#: ang/mayfirst/review.html
+msgid "Step 2: Activate the membership"
+msgstr "Paso 2: Activar la membresía"
+
+#: ang/mayfirst/review.html
+msgid ""
+"Change the status from \"Requested\" to \"Grace\" to activate the membership "
+"and enable the member to pay their initial dues."
+msgstr ""
+"Cambie el estado de \"Solicitado\" a \"Gracia\" para activar la afiliación y "
+"permitir que el afiliado pague su cuota inicial."
+
+#: ang/mayfirst/review.html
+msgid "Make membership active"
+msgstr "Hacer que la afiliación sea activa"
+
+#: ang/mayfirst/review.html
+msgid "Send Welcome Email"
+msgstr "Enviar correo electrónico de bienvenida"
+
+#: ang/mayfirst/review.html
+msgid "Welcomer"
+msgstr "Bienvenida"
+
+#: ang/mayfirst/review.html
+msgid ""
+"Optionally, choose a member of the welcome committee to cc: on this message "
+"so they know to follow up with a more in-depth welcome."
+msgstr ""
+"Si lo desea, elija a un miembro del comité de bienvenida para que le envíe "
+"un mensaje de bienvenida más detallado."
+
+#: ang/mayfirst/review.html
+msgid "Message"
+msgstr "Mensaje"
+
+#: ang/mayfirst/review.html
+msgid ""
+"Type a brief message that will be appended to the top of the standard "
+"welcome email."
+msgstr ""
+"Escriba un breve mensaje que se añadirá a la parte superior del correo "
+"electrónico de bienvenida estándar."
+
+#: ang/mayfirst/review.html
+msgid "Step 3: Send welcome message"
+msgstr "Paso 3: Enviar un mensaje de bienvenida"
+
+#: ang/mayfirst/review.html
+msgid ""
+"Send an email that lets them know their membership is approved and provides "
+"a link to pay their dues."
+msgstr ""
+"Envíe un correo electrónico para informarles de que su afiliación ha sido "
+"aprobada y proporcionarles un enlace para pagar sus cuotas."
+
+#: ang/mayfirst/review.html
+msgid "Send Welcome Message"
+msgstr "Enviar mensaje de bienvenida"
+
+#: ang/mayfirst/review.html
+msgid "Setup Control Panel Items"
+msgstr "Elementos del panel de control de configuración"
+
+#: ang/mayfirst/review.html ang/mayfirst/save.html
+msgid "Organization Name"
+msgstr "Nombre de la organización"
+
+#: ang/mayfirst/review.html
+msgid "Allocation Quota"
+msgstr ""
+
+#: ang/mayfirst/review.html
+msgid "Short Name"
+msgstr "Nombre corto"
+
+#: ang/mayfirst/review.html
+#, fuzzy
+msgid "Contact First Name"
+msgstr "Nombre"
+
+#: ang/mayfirst/review.html
+#, fuzzy
+msgid "Contact Last Name"
+msgstr "Apellido"
+
+#: ang/mayfirst/review.html
+msgid "Notification Email"
+msgstr "Correo electrónico de notificación"
+
+#: ang/mayfirst/review.html
+msgid "Step 4: Setup their control panel items"
+msgstr "Paso 4: Configurar los elementos del panel de control"
+
+#: ang/mayfirst/review.html
+msgid "This step also sends an email with login details."
+msgstr "Este paso también envía un correo electrónico con los datos de acceso."
+
+#: ang/mayfirst/review.html
+msgid "Create control panel items"
+msgstr "Crear elementos del panel de control"
+
+#: ang/mayfirst/review.js
+#, fuzzy
+msgid "The welcome email was sent."
+msgstr "El correo electrónico de bienvenida ya ha sido enviado."
+
+#: ang/mayfirst/save.html
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: ang/mayfirst/save.html
+msgid "About"
+msgstr "Acerca de"
+
+#: ang/mayfirst/save.html
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: ang/mayfirst/save.html
+msgid "Welcome!"
+msgstr "Bienvenides!"
+
+#: ang/mayfirst/save.html
+msgid "May First Movement Technology is a non-profit cooperative that"
+msgstr ""
+"May First Movement Technology es una cooperativa sin ánimo de lucro que"
+
+#: ang/mayfirst/save.html
+msgid ""
+"engages in building movements by advancing the strategic use and collective "
+"control of technology for local struggles, global transformation, and "
+"emancipation without borders."
+msgstr ""
+"se compromete a construir movimientos promoviendo el uso estratégico y el "
+"control colectivo de la tecnología para las luchas locales, la "
+"transformación global y la emancipación sin fronteras."
+
+#: ang/mayfirst/save.html
+msgid ""
+"May First engages in movement organizing and provides hosting services as a "
+"benefit of membership. If you agree with our mission, then you are welcome "
+"to join. All members are expected to abide by our"
+msgstr ""
+"May First se dedica a la organización de movimientos y ofrece servicios de "
+"alojamiento como beneficio de la afiliación. Si estás de acuerdo con nuestra "
+"misión, eres bienvenido a unirte. Se espera que todos los miembros se "
+"atengan a nuestra"
+
+#: ang/mayfirst/save.html
+msgid "Membership Agreement"
+msgstr "Acuerdo de afiliación"
+
+#: ang/mayfirst/save.html
+msgid "and are invited to engage in our decision making process."
+msgstr ""
+"y están invitados a participar en nuestro proceso de toma de decisiones."
+
+#: ang/mayfirst/save.html
+msgid "Unless labeled optional, all fields are required."
+msgstr "A menos que sean opcionales, todos los campos son obligatorios."
+
+#: ang/mayfirst/save.html
+msgid "Organization"
+msgstr "Organización"
+
+#: ang/mayfirst/save.html
+msgid "Individual"
+msgstr "Individual"
+
+#: ang/mayfirst/save.html
+msgid ""
+"Please indicate if your membership is individual, or on behalf of an "
+"organization. Organizational members get two votes and individual members "
+"get one vote in our annual elections, otherwise the membership types receive "
+"the same benefits."
+msgstr ""
+"Por favor, indique si su afiliación es individual o en nombre de una "
+"organización. Los miembros de organizaciones obtienen dos votos y los "
+"miembros individuales un voto en nuestras elecciones anuales, por lo demás "
+"los tipos de afiliación reciben los mismos beneficios."
+
+#: ang/mayfirst/save.html
+msgid "Please contact support to change your membership type."
+msgstr ""
+"Póngase en contacto con el servicio de asistencia para cambiar su tipo de "
+"afiliación."
+
+#: ang/mayfirst/save.html
+msgid "Contact Information"
+msgstr "Información de contacto"
+
+#: ang/mayfirst/save.html
+msgid "First Name"
+msgstr "Nombre"
+
+#: ang/mayfirst/save.html
+msgid "Last Name"
+msgstr "Apellido"
+
+#: ang/mayfirst/save.html
+msgid "Pseudonyms are acceptable."
+msgstr "Se aceptan los seudónimos."
+
+#: ang/mayfirst/save.html
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: ang/mayfirst/save.html
+msgid "Mobile Phone"
+msgstr "Teléfono móvil"
+
+#: ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"Please provide your mobile phone so we can send you SMS alerts about actions "
+"and meetings. Please use internationally formated phone number, starting "
+"with a + and country Code. US numbers should be in the format "
+"+1-555-555-5555. Mexican numbers: +52-9999999999."
+msgstr ""
+"Por favor, facilite su teléfono móvil para que podamos enviarle alertas por "
+"SMS sobre acciones y reuniones. Por favor, utilice un número de teléfono con "
+"formato internacional, que comience con un + y el código del país. Los "
+"números estadounidenses deben tener el formato +1-555-555-5555. Números "
+"mexicanos: +52-99-9999-9999."
+
+#: ang/mayfirst/save.html
+msgid ""
+"May First sends announcements in either English or Spanish depending on your "
+"preference. You can adjust this setting at any time."
+msgstr ""
+"May First envía los anuncios en inglés o en español, según su preferencia. "
+"Puede ajustar esta configuración en cualquier momento."
+
+#: ang/mayfirst/save.html
+msgid "Membership contacts"
+msgstr "Contactos para los miembros"
+
+#: ang/mayfirst/save.html
+msgid ""
+"Membership contacts receive all membership related email, including voting "
+"tokens."
+msgstr ""
+"Los contactos de los afiliados reciben todos los correos electrónicos "
+"relacionados con la afiliación, incluidas las fichas de votación."
+
+#: ang/mayfirst/save.html
+msgid "Admin Privileges"
+msgstr "Privilegios de Administrador"
+
+#: ang/mayfirst/save.html
+msgid ""
+"Permission to change your membership and also receive a notice when your "
+"membership invoices are due."
+msgstr ""
+"Permiso para cambiar detalles de tu membresía y para recibir un aviso cuando "
+"de sus pagos pendientes."
+
+#: ang/mayfirst/save.html
+msgid "Technical Privileges"
+msgstr "Privilegios Técnicos"
+
+#: ang/mayfirst/save.html
+msgid ""
+"Permission to change your membership and also receive control panel password "
+"reset emails."
+msgstr ""
+"Permiso para cambiar detalles de su membresía y para recibir correos "
+"electrónicos para el restablecimiento de contraseñas en el panel de control."
+
+#: ang/mayfirst/save.html
+msgid "Name"
+msgstr "Nombre"
+
+#: ang/mayfirst/save.html
+msgid "Mobile"
+msgstr "Móviles"
+
+#: ang/mayfirst/save.html
+msgid "Preferred Languge"
+msgstr "Idioma preferido"
+
+#: ang/mayfirst/save.html
+msgid "Privileges"
+msgstr "Privilegios"
+
+#: ang/mayfirst/save.html
+msgid "Actions"
+msgstr "Acciones"
+
+#: ang/mayfirst/save.html
+msgid "Edit"
+msgstr "Editar"
+
+#: ang/mayfirst/save.html
+msgid "Delete"
+msgstr "Borrar"
+
+#: ang/mayfirst/save.html
+msgid "Click to Confirm"
+msgstr "Haga clic para Confirmar"
+
+#: ang/mayfirst/save.html
+msgid "Add new contact"
+msgstr "Añadir un nuevo contacto"
+
+#: ang/mayfirst/save.html
+msgid "Geographical Information"
+msgstr "Información Geográfica"
+
+#: ang/mayfirst/save.html
+msgid ""
+"The geographic location fields are used for our own evaluation purposes to "
+"assess the geographic reach of the organization. If you or your organization "
+"spans multiple locations please pick the location most central to your "
+"operations."
+msgstr ""
+"Los campos de ubicación geográfica se utilizan para nuestra propia "
+"evaluación y para valorar el alcance geográfico de la organización. Si usted "
+"o su organización se extienden por varios lugares, elija la ubicación más "
+"central para sus operaciones."
+
+#: ang/mayfirst/save.html
+msgid "State or province"
+msgstr "Estado o provincia"
+
+#: ang/mayfirst/save.html
+msgid ""
+"Choose your country first to get an appropriate list of state/provinces."
+msgstr ""
+"Elija primero su país para obtener una lista adecuada de estados/provincias."
+
+#: ang/mayfirst/save.html
+msgid "Tell us about yourself"
+msgstr "Háblenos acerca de tí o la organización"
+
+#: ang/mayfirst/save.html
+msgid ""
+"Please describe your organization's mission and issue areas. We use this "
+"information to better understand our membership."
+msgstr ""
+"Por favor, describa la misión y las áreas temáticas de su organización. "
+"Utilizamos esta información para comprender mejor a nuestros miembros."
+
+#: ang/mayfirst/save.html
+msgid ""
+"Please tell us about yourself and why you want to join May First, including "
+"your organizing or activism interests or experience. We use this information "
+"to better understand our membership."
+msgstr ""
+"Por favor, háblanos de ti y de por qué quieres unirte a May First, "
+"incluyendo tus intereses o experiencia en organización o activismo. "
+"Utilizamos esta información para comprender mejor a nuestros miembros."
+
+#: ang/mayfirst/save.html
+msgid "Membership Contact"
+msgstr "Contacto Principal"
+
+#: ang/mayfirst/save.html
+msgid "Permissions"
+msgstr "Permisos"
+
+#: ang/mayfirst/save.html
+msgid ""
+"All contacts receive membership announcements and voting tokens. Optionally, "
+"specify additional permissions."
+msgstr ""
+"Todos los contactos reciben anuncios de membresía y fichas de votación. "
+"Puede especificar permisos adicionales."
+
+#: ang/mayfirst/save.html
+msgid "Admin:"
+msgstr "Admin:"
+
+#: ang/mayfirst/save.html
+msgid "Can change membership, receives email when membership payment is due."
+msgstr ""
+"Puede cambiar detalles de mmebresía, recibe un correo electrónico cuando "
+"toca pagar."
+
+#: ang/mayfirst/save.html
+msgid "Technical:"
+msgstr "Técnica:"
+
+#: ang/mayfirst/save.html
+msgid "Can change membership, receives control panel password reset email."
+msgstr ""
+"Puede cambiar detalles de la membresía, recibe los correos electrónicos "
+"cuando se solicita restablecer contraseñas de usuario en el panel de control."
+
+#: ang/mayfirst/save.html
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ang/mayfirst/save.html
+msgid "Save"
+msgstr "Guardar"
+
+#: ang/mayfirst/save.html
+msgid "I would like email web site and full hosting benefits"
+msgstr ""
+"Quiero utilizar sitios web, multiples correos electrónicos y todos los "
+"beneficios de alojamiento"
+
+#: ang/mayfirst/save.html
+msgid ""
+"May First is not a domain registrar or reseller and we cannot directly "
+"manage your lease to a specific domain such as myorganization.org but we can "
+"prepare your membership to function with any domain name you already own or "
+"plan to purchase with a 3rd party. If you do not provide a domain name at "
+"this time, we can provide a subdomain such as myorganization.mayfirst.info "
+"for your account. The domain name used for your account is not permanent. "
+"You can edit, remove or add additional domain names after you join."
+msgstr ""
+"May First no es un registrador o revendedor de dominios y no podemos "
+"gestionar directamente su arrendamiento a un dominio específico como "
+"myorganization.org pero podemos preparar su membresía para que funcione con "
+"cualquier nombre de dominio que ya posea o planee comprar con un tercero. Si "
+"no proporciona un nombre de dominio en este momento, podemos proporcionar un "
+"subdominio como myorganization.mayfirst.info para su cuenta. El nombre de "
+"dominio utilizado para su cuenta no es permanente. Puede editar, eliminar o "
+"añadir nombres de dominio adicionales después de unirse."
+
+#: ang/mayfirst/save.html
+msgid ""
+"If you would like a virtual server, please click yes. If you are not sure, "
+"choose No. You can always add a virtual server later."
+msgstr ""
+"Si desea un servidor virtual, haga clic en Sí. Si no está seguro, elija No. "
+"Siempre puede añadir un servidor virtual más tarde."
+
+#: ang/mayfirst/save.html
+#, fuzzy
+msgid ""
+"Would you like one or more virtual\n"
+"      private servers? Each server is allocated a 24GB system disk. You can\n"
+"      optionally choose to allocate a spinning partition from your total\n"
+"      alloted membership disk space (please specify those details in the\n"
+"      additional information section below). Click the previous button if "
+"you would\n"
+"      like to increase your total storage to accomodate more disk space for\n"
+"      your virtual private server. You must specify at least one CPU and at\n"
+"      least one GB of RAM per virtual private server that you choose.  If "
+"you are adding more than one VPS and adding additional RAM and CPUs please "
+"indicate how you want those resources distributed between each VPS in the "
+"additional\n"
+"      information section below."
+msgstr ""
+"¿Quiere uno o varios servidores\n"
+"      servidores privados? A cada servidor se le asigna un disco de sistema "
+"de 24 GB. Puede\n"
+"      opcionalmente, asignar una partición giratoria del espacio total\n"
+"      espacio total del disco de membresía. Haga clic en el botón anterior "
+"si desea\n"
+"      desea aumentar su almacenamiento total para acomodar más espacio de "
+"disco para\n"
+"      su servidor privado virtual. Debe especificar al menos una CPU y al "
+"menos\n"
+"      al menos un GB de RAM por cada servidor privado virtual que elija."
+
+#: ang/mayfirst/save.html
+msgid ""
+"Please indicate how many virtual private servers you would like (limit: 2, "
+"please contact support to request more). Each virtual private server's base "
+"price is on a sliding scale according to your income tier. Based on your "
+"chosen income tier, the virtual private server cost is: %1 %2 per month."
+msgstr ""
+"Indique cuántos servidores privados virtuales desea (límite: 2, póngase en "
+"contacto con el servicio de asistencia para solicitar más). El precio base "
+"de cada servidor privado virtual es una escala móvil según su nivel de "
+"ingresos. Según el nivel de ingresos elegido, el coste del servidor privado "
+"virtual es: %1 %2 al mes."
+
+#: ang/mayfirst/save.html
+msgid "Additional Information"
+msgstr "Información adicional"
+
+#: ang/mayfirst/save.html
+msgid ""
+"Please let us know if you have any additional requests, including the amount "
+"of data disk space you would like initially allocated to your virtual "
+"private server."
+msgstr ""
+"Por favor, háganos saber si tiene alguna solicitud adicional, incluyendo la "
+"cantidad de espacio de disco de datos que le gustaría asignar a su servidor "
+"privado virtual."
+
+#: ang/mayfirst/save.html
+msgid ""
+"Please review your selections below. Click the previous button to make any "
+"changes or click submit if everything is correct."
+msgstr ""
+"Por favor, revise sus selecciones a continuación. Haga clic en el botón "
+"anterior para realizar cualquier cambio o haga clic en enviar si todo es "
+"correcto."
+
+#: ang/mayfirst/save.html
+msgid "Contact"
+msgstr "Contacto"
+
+#: ang/mayfirst/save.html
+msgid "Dues Reduction Request"
+msgstr "Solicitud de Reducción de Cuotas"
+
+#: ang/mayfirst/save.html
+msgid ""
+"Our cooperative depends wholly on membership dues to fund our day to day "
+"operations and our ability to reduce these dues is limited however if for "
+"any reason you need to request a reduction in your dues please let us know "
+"here and a special committee of the board will meet to review your request. "
+"Please include as much information as possible, including your current "
+"budget, volunteer and paid staff and, if requesting extra resources, how you "
+"plan to use them."
+msgstr ""
+"Nuestra cooperativa depende totalmente de las cuotas de la membresía para "
+"financiar nuestras operaciones cotidianas y nuestra capacidad para reducir "
+"estas cuotas es limitada, sin embargo, si por alguna razón necesita "
+"solicitar una reducción en sus cuotas, por favor háganoslo saber aquí y un "
+"comité especial de la junta directiva se reunirá para revisar su solicitud. "
+"Por favor, incluya toda la información posible, incluyendo su presupuesto "
+"actual, el número de personal voluntario y remunerado y, si solicita "
+"recursos adicionales, cómo piensa utilizarlos."
+
+#: ang/mayfirst/save.html
+msgid "Submit Membership Details"
+msgstr "Enviar los Datos de Membresía"
+
+#: ang/mayfirst/save.html
+msgid ""
+"Warning: changes are not saved until you reach the last page and submit."
+msgstr ""
+"Atención: los cambios no se guardan hasta que se llega a la última página y "
+"se envía."
+
+#: ang/mayfirst/save.html
+msgid "Cancel and pay dues."
+msgstr "Cancelar y pagar las cuotas."
+
+#: ang/mayfirst/save.js
+msgid ""
+"Oops. There was an error! Please contact support. The returned error is: "
+msgstr ""
+"Ups. Hubó un error. Por favor, póngase en contacto con el servicio de "
+"soporte técnico. El error es:"
+
+#: ang/mayfirst/save.js
+msgid "Your changes have been saved!"
+msgstr "Tus cambios se han guardado."
+
+#: ang/mayfirst/save.js
+msgid "Pay dues."
+msgstr "Pagar cuotas."
+
+#: ang/mayfirst/save.js
+msgid ""
+"Thank you for submitting your membership! We review all requests manually, "
+"so it may take up to 24 hours to process. When we do you will receive an "
+"email with the full details of how to get involved in May First and how to "
+"use your hosting services."
+msgstr ""
+"Gracias por enviar su solicitud de membresía. Revisamos todas las "
+"solicitudes manualmente, por lo que puede tardar hasta 24 horas en "
+"procesarse. Cuando lo hagamos, recibirás un correo electrónico con todos los "
+"detalles sobre cómo participar en May First y cómo utilizar tus servicios de "
+"alojamiento."
+
+#: mayfirst.php
+msgid "Review pending Mayfirst Membership"
+msgstr "Revisión de membresía May First pendiente"
+
+#: mayfirst.php
+#, fuzzy
+msgid "May First Membership Payment Token"
+msgstr "May First - Token de pago de membresía"
+
+#: mayfirst.php
+#, fuzzy
+msgid "May First Membership Payment Token (with edit privileges)"
+msgstr " May First - Token de pago de membresía (con permisos para editar)"
+
+#: mayfirst.php
+#, fuzzy
+msgid "May First payment link"
+msgstr "May First - Enlace de pago"
+
+#: mayfirst.php
+msgid "May First payment link with edit privileges"
+msgstr "May First - Enlace de pago con permisos para editar"
+
+#: mayfirst.php
+#, fuzzy
+msgid "May First edit membership link"
+msgstr "May First - Enlace para editar membresía"
+
+#: mayfirst.php
+#, fuzzy
+msgid "May First membership due date"
+msgstr "Membresía May First - Fecha de vencimiento"
+
+#: mayfirst.php
+#, fuzzy
+msgid "Date the May First membership will end if renewed"
+msgstr "Membresía May First - Por que unir"
+
+#: mayfirst.php
+#, fuzzy
+msgid "May First membership amount due in USD"
+msgstr "Membresía May First - Cuotas pendientes en USD"
+
+#: mayfirst.php
+msgid "May First membership amount due in the requested currency"
+msgstr "Mebresía May First - Cuotas pendinetes en la moneda solicitada"
+
+#: mayfirst.php
+msgid ""
+"Renewal amount line only filled in if MXN is chosen (e.g.: \"= $1999 MXN\")"
+msgstr ""
+"La línea del monto total de la renovación sólo se llena si se elige MXN"
+
+#: mayfirst.php
+msgid ""
+"A unique id for members who need a reference number when paying, composed of "
+"the membership expiration date and membership id"
+msgstr ""
+
+#: mayfirst.php
+#, fuzzy
+msgid "May First membership currency"
+msgstr "Membresía May First - Moneda"
+
+#: mayfirst.php
+#, fuzzy
+msgid "May First membership frequency/term (annual or monthly)"
+msgstr "Membresía May First - Periodicidad de renovación (anual o mensual)"
+
+#: mayfirst.php
+#, fuzzy
+msgid "May First membership why join"
+msgstr "Membresía May First - Por que unir"
+
+#: mayfirst.php
+msgid "The contacts first name or \"compa\" if first name is empty"
+msgstr "Nombre de contacto o \"compa\" si nombre es vacío"
+
+#: mayfirst.php
+#, fuzzy
+msgid "The name of the contact holding the membership"
+msgstr "Nombre del contacto principal de la membreśia"
+
+#: mayfirst.php
+msgid "The current USD-MXN exchange rate"
+msgstr "La tasa de cambio USD-MXN actual"
+
+#: mayfirst.php
+msgid "Caveat about changing exchange rates, only filled in if MXN"
+msgstr ""
+"Aviso sobre la variación de las tasas de cambio, sólo se rellena si se trata "
+"de MXN"
+
+#: mayfirst.php
+msgid "A notice if automatic renewal is enabled for this membership"
+msgstr "Un aviso si la renovación automática está activada para esta membresía"
+
+#: mayfirst.php
+msgid ""
+"The MXN amount is based on the exchange rate of 1 USD = %1 MXN (current when "
+"this email was sent). It may be different you click the link to pay."
+msgstr ""
+"El importe en MXN se basa en la tasa de cambio de 1 USD = %1 MXN (la última "
+"tasa vigente cuando se envió este correo electrónico). La tasa puede haber "
+"actualizada al momento de acceder vía el enlace para pagar."
+
+#: mayfirst.php
+msgid ""
+"Note: Your membership is setup with automatic renewal so there is no need to "
+"manually submit your payment. You will be charged automatically."
+msgstr ""
+"Nota: Su membresía está configurada con renovación automática por lo que no "
+"es necesario enviar manualmente su pago. Se le cobrará automáticamente."
+
+#: mayfirst.php
+msgid ""
+"Note: Your membership is setup with automatic renewal. However, your "
+"membership is not current so something may be wrong. Please email "
+"info@mayfirst.org to learn more."
+msgstr ""
+"Nota: Su afiliación está configurada con renovación automática. Sin embargo, "
+"sus pagos de membresía no están al día lo que podría indicar que hay un "
+"problema."
+
+#: templates/CRM/Mayfirst/Page/Pay.tpl templates/CRM/Mayfirst/Page/Save.tpl
+msgid "(In your native language) The current time is %1."
+msgstr "(En su idioma de navegador) La hora actual es %1."
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid "The status of the membership can fall into one of several categories:"
+msgstr "El estado de la membresía puede ser una de varias categorías:"
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid "No match"
+msgstr "No hay coincidencia"
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid ""
+"This membership submission is a brand new record. There are no matching "
+"records in the database."
+msgstr ""
+"Esta solicitud de membresía es un registro nuevo. No hay registros "
+"coincidentes en la base de datos."
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid "One match"
+msgstr "Una coincidencia"
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid ""
+"There is a record already in the database that matches the submission's name "
+"and/or email or phone. It's probably a duplicate. If you do nothing, that "
+"matching record will be updated and made a member. However, if the matching "
+"record does not seem to be the same as the submission, then some action is "
+"required. We cannot have two contacts in the database with exactly the same "
+"name (if it is an organization) or exactly the same name and phone and/or "
+"email if it's an individual. Please contact support for more help."
+msgstr ""
+"Ya existe un registro en la base de datos que coincide con el nombre y/o el "
+"correo electrónico o el teléfono. Probablemente sea un duplicado. Si no "
+"haces nada, ese registro coincidente se actualizará y se convertirá en la "
+"nueva membresía. Sin embargo, si el registro coincidente no parece ser el "
+"mismo que del nuevo solicitud, entonces se requiere alguna acción. No "
+"podemos tener dos contactos en la base de datos con exactamente el mismo "
+"nombre (si se trata de una organización) o exactamente el mismo nombre y "
+"teléfono y/o correo electrónico si se trata de un individuo. Por favor, "
+"póngase en contacto con soporte técnico para obtener más ayuda."
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid "De-dupe required"
+msgstr "Se requiere resolver un registro duplicado"
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid ""
+"There is more then one matching record in the database. You must search the "
+"database for the matching records and merge them before you can continue."
+msgstr ""
+"Hay más de un registro coincidente en la base de datos. Debe buscar en la "
+"base de datos los registros coincidentes y fusionarlos antes de poder "
+"continuar."
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid ""
+"The contact contact determines whether this membership will be created as an "
+"Individual or an Organization, which in turn, determines whether they will "
+"be considered an organizational member with two votes or an individual "
+"member with one vote."
+msgstr ""
+"El contacto determina si esta membresía se creará como individual o como "
+"organización, lo que a su vez determina si se considerará una membresía de "
+"organización con dos votos o una membresía individual con un voto."
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid ""
+"The currency determines whether the contact record will be coded as paying "
+"in USD or MXN and in which currency we will expect their payment."
+msgstr ""
+"La moneda determina si el registro del contacto se codificará como pago en "
+"USD o MXN y en qué moneda esperaremos su pago."
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid ""
+"The membership income tier determines which membership income tiers are "
+"available. You cannot pick a membership tier that is lower then your income "
+"tier."
+msgstr ""
+"El nivel de ingresos de la membresía determina los niveles de "
+"membresíadisponibles. No puedes elegir un nivel de membresía inferior a tu "
+"nivel de ingresos."
+
+#: templates/CRM/mayfirst/createMembership.hlp
+msgid ""
+"The why join field helps us eliminate spam or people who don't share our "
+"goals. It also provides us an opportunity to write a personalized welcome "
+"message and start our relationship off in a good way."
+msgstr ""
+"El campo por qué unirse nos ayuda a filtrar el spam o y a las personas que "
+"no comparten nuestros objetivos. También nos da la oportunidad de escribir "
+"un mensaje de bienvenida personalizado y comenzar nuestra relación de buena "
+"manera."
+
+#: templates/CRM/mayfirst/renewMembership.hlp
+msgid ""
+"The contact name  should be divided in two parts, the first name and last "
+"name."
+msgstr ""
+"El nombre del contacto debe estar dividido en dos partes, el nombre y el "
+"apellido."
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Greetings"
+msgstr "Saludos"
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+msgid ""
+"You are getting this email because someone (hopefully you) tried to pay your "
+"May First dues online but did not have your membership token. So, here it is!"
+msgstr ""
+"Está recibiendo este correo electrónico porque alguien (esperemos que fuiste "
+"tú) ha intentado pagar tu cuota de May First por Internet pero no tenía tu "
+"ficha de membresía.  Entonces, ¡aquí está!"
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+#, fuzzy
+msgid "Membership Due Date"
+msgstr "Fecha de Vencimiento de la Membresía"
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#, fuzzy
+msgid "Amount Due"
+msgstr "Cantidad Total a Pagar:"
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#, fuzzy
+msgid "Membership Renewal period"
+msgstr "Ficha de renovación para su membresía"
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#, fuzzy
+msgid "Payment Link"
+msgstr "Enlace de Pago"
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#, fuzzy
+msgid "Payment Token"
+msgstr "Ficha de Pago"
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Reference Number"
+msgstr ""
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid ""
+"May First Movement Technology is a people of color led, democratic "
+"organization helping to build the movement for global transformation and "
+"emancipation without borders."
+msgstr ""
+"May First Movement Technology es una organización democrática dirigida por "
+"personas de color que ayuda a construir el movimiento para la transformación "
+"global y la emancipación sin fronteras."
+
+#: templates/MessageTemplate/MayfirstDuesPaymentInfo/subject.tpl
+msgid "May First Dues Links for: "
+msgstr "May First enlaces a cuotas para:"
+
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+msgid ""
+"This email is a reminder that it is time to pay your May First membership "
+"dues."
+msgstr "Este correo es un recordatorio de pago para su membresía de May First"
+
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#, fuzzy
+msgid "Due Date"
+msgstr "Fecha de vencimiento"
+
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#, fuzzy
+msgid "Membership renewal term/frequency"
+msgstr "Periodicidad de renovación para su membresía"
+
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid "Pay your dues online by clicking this link"
+msgstr "Haga clic sobre este enlace para pagar sus cuotas"
+
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+msgid ""
+"Your support is critical for our project to continue. It both pays for our "
+"organizaing works and also the servers, electricity and labor to operate our "
+"members&#39; web sites, email accounts, video conferencing and all the other "
+"technology services our movement depends on."
+msgstr ""
+"Su aportación es vital para que nuestro proyecto continúe. Con ello pagamos "
+"tanto nuestro trabajo de organización como a los servidores, la electricidad "
+"y la mano de obra para mantener funcionando los sitios web de nuestra "
+"membresía, las cuentas de correo electrónico, las videoconferencias y todos "
+"los demás servicios tecnológicos de los que depende nuestro movimiento."
+
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid ""
+"If you have any questions about your membership, what services we offer, or "
+"how you can learn more about May First, please reply to this email."
+msgstr ""
+"Si tiene alguna pregunta sobre su membrsía, los servicios que ofrecemos o "
+"cómo puede saber más sobre May First, responda a este correo electrónico."
+
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid ""
+"Want to get more involved in building our movements digital autonomy? We "
+"need your help! No technology skills are needed. We are looking for folks to "
+"join our Engagement and Communications Team and our Technology, "
+"Infrastructure and Services Team. More info:"
+msgstr ""
+" ¿Quieres colaborar más en la construcción de la autonomía digital de "
+"nuestros movimientos? ¡Necesitamos tu ayuda! No se necesitan conocimientos "
+"tecnológicos. Buscamos personas que se unan a nuestro Equipo de "
+"Participación y Comunicaciones y a nuestro Equipo de Tecnología, "
+"Infraestructura y Servicios. Más información:"
+
+#: templates/MessageTemplate/MayfirstDuesReminderActive/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Thank you for your support!"
+msgstr "¡Gracias por su apoyo!"
+
+#: templates/MessageTemplate/MayfirstDuesReminderActive/subject.tpl
+msgid "May First Dues Invoice for: "
+msgstr "May First nota de pago para: "
+
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+msgid ""
+"You are receiving this email because your membership is expired and your "
+"resources either have been disabled or are scheduled to be disabled."
+msgstr ""
+"Está recibiendo este correo electrónico porque su membresía ha caducada y "
+"sus recursos han sido desactivados o están programados para ser desactivados."
+
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+msgid "Please click the link below to pay your dues."
+msgstr "Favor de hacer clic en el siguiente enlace para pagar sus cuotas"
+
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+msgid ""
+"We can\n"
+"only keep your hosting resources on our servers for 3 months after your "
+"grace\n"
+"period ends. After 3 months we will permanently delete your data to make "
+"room for\n"
+"other members on our collectively owned servers."
+msgstr ""
+"Sólo podemos mantener sus recursos de alojamiento en nuestros servidores "
+"durante 3 meses después de que termine su período de gracia. Después de 3 "
+"meses, eliminaremos sus datos de forma permanente para dejar espacio a otras "
+"membresías en nuestros servidores de propiedad colectiva."
+
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid ""
+"Your support is critical for our project to continue. It both pays for our "
+"organizaing works and also the servers, electricity and labor to operate our "
+"members&#39; web sites, email accounts, video conferencing and all the other "
+"technology services running on our servers."
+msgstr ""
+"Su aportación es vital para que nuestro proyecto continúe. Con ello pagamos "
+"tanto nuestro trabajo de organización como a los servidores, la electricidad "
+"y la mano de obra para mantener funcionando los sitios web de nuestra "
+"membresía, las cuentas de correo electrónico, las videoconferencias y todos "
+"los demás servicios tecnológicos de los que depende nuestro movimiento."
+
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/html.tpl
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+#, fuzzy
+msgid ""
+"If you would like to cancel your membership, please email info@mayfirst.org."
+msgstr ""
+"Si desea cancelar su membresía, favor de enviar un correo a info@mayfirst."
+"org."
+
+#: templates/MessageTemplate/MayfirstDuesReminderExpired/subject.tpl
+msgid "May First Membership is expired, resources disabled for: "
+msgstr "Membresía de May First caducada, recursos deshabilitados para:"
+
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid ""
+"You are receiving this email because your membership is in the grace status. "
+"That means you are behind on your dues!"
+msgstr ""
+"Estas recibiendo este correo por que tu mebresía esta en un estado de "
+"período de gracia lo cual quiere decir que hay un retraso en sus pagos de "
+"cuotas."
+
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/html.tpl
+msgid ""
+"Please click the link below to pay your dues. We allow a 2 month grace "
+"period after which your hosting services will be disabled."
+msgstr ""
+" Por favor, haga clic en el siguiente enlace para pagar sus cuotas. "
+"Permitimos un período de gracia de 2 meses, después de lo cual sus servicios "
+"de alojamiento serán desactivados."
+
+#: templates/MessageTemplate/MayfirstDuesReminderGrace/subject.tpl
+msgid "May First Dues Reminder for: "
+msgstr "Recordatorio de pago de cuotas de May First para:"
+
+#: templates/MessageTemplate/MayfirstNotifyNewMemberSignup/html.tpl
+#, fuzzy
+msgid "Please review the membership request:"
+msgstr "Favor de revisar la solicitud de mebresía:"
+
+#: templates/MessageTemplate/MayfirstNotifyNewMemberSignup/html.tpl
+#, fuzzy
+msgid "Pending requests"
+msgstr "Solicitudes de membresía pendientes"
+
+#: templates/MessageTemplate/MayfirstNotifyNewMemberSignup/subject.tpl
+#, fuzzy
+msgid "New May First Membership Signup"
+msgstr "Registro para membresía de May First"
+
+#: templates/MessageTemplate/MayfirstNotifyUploadedReceipt/html.tpl
+msgid "A member has uploaded a receipt:"
+msgstr "Una membresía ha cargado un recibo."
+
+#: templates/MessageTemplate/MayfirstNotifyUploadedReceipt/html.tpl
+msgid "Review and update the contribution status"
+msgstr "Revisar y actualizar el estado de contribución"
+
+#: templates/MessageTemplate/MayfirstNotifyUploadedReceipt/subject.tpl
+#, fuzzy
+msgid "Member uploaded a receipt"
+msgstr "Cargar comprobante de pago"
+
+#: templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+#, fuzzy
+msgid "May First Member Payment Receipt"
+msgstr "May First - Token de pago de membresía"
+
+#: templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+#, fuzzy
+msgid "Payment Date"
+msgstr "Pago"
+
+#: templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+#, fuzzy
+msgid "Payment Amount"
+msgstr "Ficha de Pago"
+
+#: templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+#, fuzzy
+msgid "Transaction ID"
+msgstr "Organización"
+
+#: templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "Status"
+msgstr ""
+
+#: templates/MessageTemplate/MayfirstPaymentReceipt/html.tpl
+msgid "paid in full"
+msgstr ""
+
+#: templates/MessageTemplate/MayfirstPaymentReceipt/subject.tpl
+#, fuzzy
+msgid "May First Membership Payment Receipt"
+msgstr "May First - Token de pago de membresía"
+
+#: templates/MessageTemplate/MayfirstRequestReceived/html.tpl
+msgid ""
+"Thank you for submitting your May First membership request. We review\n"
+"each request manually, which can take up to a few days so please be patient. "
+"If\n"
+"you have any questions please feel free to reply to this email."
+msgstr ""
+"Gracias por enviar tu solicitud de membresía a May First. Revisamos cada "
+"solicitud manualmente, lo que puede llevar unos díaa. Agradecemos tu "
+"paciencia. Si tienes alguna pregunta, no dudes en responder a este correo "
+"electrónico."
+
+#: templates/MessageTemplate/MayfirstRequestReceived/subject.tpl
+#, fuzzy
+msgid "May First Membership Request Received"
+msgstr "May First Solictud de Renovación de Membresía Recibido"
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid ""
+"Welcome! You are now an official member of May First Movement Technology, a "
+"people of color led, democratic organization helping to build the movement "
+"for global transformation and emancipation without borders."
+msgstr ""
+"Bienvenido! Se ha activado su membresía a May First Movement Technology, una "
+"organización democrática dirigida por personas de color que ayuda a "
+"construir un movimiento para la transformación global y la emancipación sin "
+"fronteras."
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid ""
+"Your membership is currently in the Grace status, but you can take care of "
+"that by following the link below to contribute your share to our cooperative "
+"project."
+msgstr ""
+"Tu membresía está actualmente en periodo de gracia, pero puedes resolverlo "
+"siguiendo el siguiente enlace para contribuir yus cuotas a nuestro proyecto "
+"cooperativo."
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+#, fuzzy
+msgid "Member Name:"
+msgstr "Nombre de Membresía"
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+#, fuzzy
+msgid "Amount Due:"
+msgstr "Cantidad Total a Pagar:"
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+#, fuzzy
+msgid "Payment Link:"
+msgstr "Enlace de Pago"
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid "Click on this link to pay your dues or modify your membership details."
+msgstr ""
+"Haga clic en este enlace pagar sus cuotas o cambiar los detallas de su "
+"membresía."
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+#, fuzzy
+msgid "Payment Token:"
+msgstr "Ficha de Pago:"
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid ""
+"May First is your organization. Please take a moment to <a %1>orient "
+"yourself</a> and <a %2>learn how to get involved</a>."
+msgstr ""
+"May First es ahora tu organización también. Toma un momento para <a "
+"%1>orientarte</a> y <a %2>aprender como participar</a>."
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid ""
+"Our <a %1>statement on combatting racism and sexism</a> is particularly "
+"important."
+msgstr ""
+"Nuestra <a %1>declaración sobre la lucha contra el racismo y el sexismo</a> "
+"es especialmente importante."
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid ""
+"You may also want to book mark our <a %1>control panel site</a> (for adding "
+"web sites, email address, etc)."
+msgstr ""
+"Se recomienda también añadir a tus favoritos de navegador el enlace a "
+"nuestro <a %1>sitio del panel de control</a> (para añadir sitios web, "
+"dirección de correo electrónico, etc)."
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid ""
+"Lastly, our <a %1>support site</a> is the place for asking questions about "
+"how to use our hosting resources."
+msgstr ""
+"Por último, nuestro <a %1>sitio de soporte</a> es el lugar para hacer "
+"preguntas sobre cómo utilizar nuestros recursos de alojamiento."
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+msgid ""
+"You should receive, via a separate email message, instructions for how to "
+"set up  your initial login and password and how to connect to our control "
+"panel to use your hosting resources."
+msgstr ""
+"Recibirás, a través de un mensaje de correo electrónico separado, "
+"instrucciones sobre cómo configurar tu nombre de usuario y contraseña "
+"iniciales y cómo conectarte a nuestro panel de control para utilizar tus "
+"recursos de alojamiento."
+
+#: templates/MessageTemplate/MayfirstWelcome/html.tpl
+#, fuzzy
+msgid "Why Join?"
+msgstr "¿Por qué unirse?"
+
+#: templates/MessageTemplate/MayfirstWelcome/subject.tpl
+msgid "Welcome to May First Movement Technology!"
+msgstr "¡Bienvenidos a May First Movement Technology!"
+
+#~ msgid "Invalid Token"
+#~ msgstr "Ficha inválida"
+
+#~ msgid ""
+#~ "The member contact for the membership id %membership_id no longer exists. "
+#~ "Please contact support for help resolving this issue."
+#~ msgstr ""
+#~ "El contacto del miembro para el ID de miembro %membership_id ya no "
+#~ "existe. Póngase en contacto con soporte técnico para que le ayuden a "
+#~ "resolver este problema."
+
+#~ msgid "Membership is cancelled for membership id %membership_id."
+#~ msgstr ""
+#~ "Se ha cancelado la afiliación para el id de afiliación %membership_id."
+
+#~ msgid "No matching contact hash for that membership id."
+#~ msgstr ""
+#~ "No hay un hash de contacto que coincida con esa identificación de miembro."
+
+#~ msgid "Your income range cannot be higher then your plan."
+#~ msgstr "Su rango de ingresos no puede ser superior al nivel de su plan."
+
+#~ msgid ""
+#~ "Please contact support before lowering your plan to ensure you will not "
+#~ "exceed your disk usage limits."
+#~ msgstr ""
+#~ "Póngase en contacto con el servicio de soporte técnico antes de reducir "
+#~ "su plan para asegurarse de que su uso de disco actual no supere los "
+#~ "límites."
+
+#~ msgid ""
+#~ "Please contact support before lowering your extra storage ensure you will "
+#~ "not exceed your disk usage limits."
+#~ msgstr ""
+#~ "Por favor, póngase en contacto con el servicio de soporte técnico  antes "
+#~ "de reducir el almacenamiento adicional para asegurarse de que su uso de "
+#~ "disco actual no supere los límites."
+
+#~ msgid ""
+#~ "You cannot increase your plan unless you are within 15 days of renewing. "
+#~ "Please contact support and we can manually set it up for you."
+#~ msgstr ""
+#~ "No puedes aumentar tu plan con este formulario hasta que estés a menos de "
+#~ "15 días de renovar. Ponte en contacto con el servicio de soporte técnico "
+#~ "y podremos configurarlo manualmente."
+
+#~ msgid ""
+#~ "You cannot increase your storage unless you are within 15 days of "
+#~ "renewing. Please contact support and we can manually set it up for you."
+#~ msgstr ""
+#~ "No puedes aumentar tu almacenamiento con este formulario hasta que estés "
+#~ "a menos de 15 días de renovar. Ponte en contacto con el servicio de "
+#~ "soporte técnico y podremos configurarlo manualmente."
+
+#~ msgid "Unknown membership status: %1."
+#~ msgstr "Estado de afiliación desconocido: %1."
+
+#~ msgid ""
+#~ "No recipients! Does this membership have any billing contacts? Membership "
+#~ "Id: %1"
+#~ msgstr ""
+#~ "No hay destinatarios. ¿Tiene esta afiliación algún contacto de "
+#~ "facturación? Id. de afiliación: %1"
+
+#~ msgid ""
+#~ "The membership was created, but I failed to update the Civi contact with "
+#~ "the external identifier: %external_identifier."
+#~ msgstr ""
+#~ "La afiliación se ha creado, pero no he podido actualizar el contacto Civi "
+#~ "con el identificador externo: %external_identifier."
+
+#~ msgid "The field '%1' is required."
+#~ msgstr "El campo \"%1\" es obligatorio."
+
+#~ msgid "Your contact must include a valude for %1."
+#~ msgstr "Su contacto debe incluir un valor para %1."
+
+#~ msgid "Unknown createType: %1. Please use billing, member, or general"
+#~ msgstr ""
+#~ "Tipo de creación desconocido: %1. Por favor, utilice facturación, miembro "
+#~ "o general"
+
+#~ msgid ""
+#~ "Found more then one contact with the same name already in the database! "
+#~ "Please search for this organization and merge the results and then try "
+#~ "again."
+#~ msgstr ""
+#~ "Se ha encontrado más de un contacto con el mismo nombre en la base de "
+#~ "datos. Por favor, busque esta organización, fusione los resultados y "
+#~ "vuelva a intentarlo."
+
+#~ msgid ""
+#~ "I found a duplicate record and it appears to already have an external "
+#~ "identifier. That usually means it's already a member. If this is a "
+#~ "mistake, then delete the external identifier for the record in the "
+#~ "database with the same organization name as this one."
+#~ msgstr ""
+#~ "He encontrado un registro duplicado y parece que ya tiene un "
+#~ "identificador externo. Eso suele significar que ya es un miembro. Si se "
+#~ "trata de un error, elimine el identificador externo del registro en la "
+#~ "base de datos con el mismo nombre de organización que éste."
+
+#~ msgid ""
+#~ "Found more then one contact with the same first name, last name and "
+#~ "either email or phone already in the database! Please search for this "
+#~ "contact and merge the results and then try again."
+#~ msgstr ""
+#~ "Se ha encontrado más de un contacto con el mismo nombre, apellido y "
+#~ "correo electrónico o teléfono en la base de datos. Por favor, busque este "
+#~ "contacto, combine los resultados y vuelva a intentarlo."
+
+#~ msgid ""
+#~ "I found a duplicate record and it appears to marked as deceased. You will "
+#~ "have to change that in order to move forward."
+#~ msgstr ""
+#~ "He encontrado un registro duplicado y aparece marcado como fallecido. "
+#~ "Tendrá que cambiarlo para poder avanzar."
+
+#~ msgid ""
+#~ "I found a duplicate record that has an external identifier. That usually "
+#~ "means it is already a member. Please delete that value if this is a "
+#~ "mistake."
+#~ msgstr ""
+#~ "He encontrado un registro duplicado que tiene un identificador externo. "
+#~ "Eso suele significar que ya es un miembro. Por favor, elimine ese valor "
+#~ "si se trata de un error."
+
+#~ msgid "Unknown create type value."
+#~ msgstr "Valor de tipo de creación desconocido."
+
+#~ msgid "Frequency should be set to Monthly or Annual."
+#~ msgstr "La frecuencia debe establecerse como mensual o anual."
+
+#~ msgid ""
+#~ "This contact already has a membership. Please renew this membership "
+#~ "instead of creating a new one. Or, if the membership is no longer in use, "
+#~ "then cancel it."
+#~ msgstr ""
+#~ "Este contacto ya es miembro. Por favor, renueve esta afiliación en lugar "
+#~ "de crear una nueva. O bien, si la membresía ya no está en uso puedes "
+#~ "cancelarla."
+
+#~ msgid "Membership For: %1"
+#~ msgstr "Afiliación para: %1"
+
+#~ msgid "This submission came from the following webform entry:"
+#~ msgstr "Este envío proviene de la siguiente entrada del formulario web:"
+
+#~ msgid "View or Edit Submission"
+#~ msgstr "Ver o editar la presentación"
+
+#~ msgid "Member Contact Record"
+#~ msgstr "Registro de contactos de los miembros"
+
+#~ msgid "Member contact has been created."
+#~ msgstr "Se ha creado el contacto de los miembros."
+
+#~ msgid "View"
+#~ msgstr "Ver"
+
+#~ msgid "Contact Type"
+#~ msgstr "Tipo de contacto"
+
+#~ msgid "State/Province"
+#~ msgstr "Estado/Provincia"
+
+#~ msgid "Income is empty because no hosting benefits chosen."
+#~ msgstr ""
+#~ "El rango de ingresos está vacío porque no eligió ningún beneficio de "
+#~ "alojamiento."
+
+#~ msgid "Related General Contact Record"
+#~ msgstr "Registro de contacto general relacionado"
+
+#~ msgid "Related General Contact has been created."
+#~ msgstr "Se ha creado un contacto general relacionado."
+
+#~ msgid "Cell Phone"
+#~ msgstr "Teléfono móvil"
+
+#~ msgid "Related Billing Contact Record"
+#~ msgstr "Registro de contacto de facturación relacionado"
+
+#~ msgid "Related Billing Contact has been created."
+#~ msgstr "Se ha creado un contacto de facturación relacionado."
+
+#~ msgid "Membership"
+#~ msgstr "Afiliación"
+
+#~ msgid "Membership has been created."
+#~ msgstr "Se ha creado la afiliación."
+
+#~ msgid "View membership record"
+#~ msgstr "Ver el registro de miembros"
+
+#~ msgid "Frequency"
+#~ msgstr "Frecuencia"
+
+#~ msgid "Plan is allowed to be empty when no hosting benefits are chosen."
+#~ msgstr ""
+#~ "Se permite que el plan esté vacío cuando no se eligen prestaciones de "
+#~ "alojamiento."
+
+#~ msgid "Extra Storage (in GB)"
+#~ msgstr "Almacenamiento extra (en GB)"
+
+#~ msgid "Number of virtual private servers"
+#~ msgstr "Número de servidores privados virtuales"
+
+#~ msgid "Amount of RAM in GBs"
+#~ msgstr "Cantidad de RAM en GBs"
+
+#~ msgid "Amount of SSD space in GBs"
+#~ msgstr "Cantidad de espacio SSD en GBs"
+
+#~ msgid "Control Panel"
+#~ msgstr "Panel de control"
+
+#~ msgid "The membership has been created in the control panel."
+#~ msgstr "La afiliación se ha creado en el panel de control."
+
+#~ msgid "View record in control panel"
+#~ msgstr "Ver registro en el panel de control"
+
+#~ msgid "Short/User Name"
+#~ msgstr "Nombre corto/de usuario"
+
+#~ msgid ""
+#~ "Control Panel ID (if the member already exists in the control panel, "
+#~ "enter the id to skip this step)"
+#~ msgstr ""
+#~ "ID del panel de control (si el miembro ya existe en el panel de control, "
+#~ "introduzca el ID para omitir este paso)"
+
+#~ msgid "Welcome Message"
+#~ msgstr "Mensaje de bienvenida"
+
+#~ msgid "Welcome Contact"
+#~ msgstr "Bienvenido Contacto"
+
+#~ msgid "Please check your URL for all the query terms."
+#~ msgstr "Por favor, compruebe su URL para todos los términos de consulta."
+
+#~ msgid " I can't access the nid query term."
+#~ msgstr " No puedo acceder al término de consulta nid."
+
+#~ msgid " I can't access the sid term."
+#~ msgstr " No puedo acceder al término sid."
+
+#~ msgid "Saving..."
+#~ msgstr "Ahorro..."
+
+#~ msgid "Saved"
+#~ msgstr "Guardado"
+
+#~ msgid "Sending..."
+#~ msgstr "Enviando..."
+
+#~ msgid "Sent"
+#~ msgstr "Enviado"
+
+#~ msgid "Change membership details"
+#~ msgstr "Cambiar los detalles de la membresía"
+
+#~ msgid "Annual (When paying in MXN, only annual memberships are available)"
+#~ msgstr "Anual (Cuando se paga en MXN, los pagos deben ser anuales)"
+
+#~ msgid "Your Annual Income Level"
+#~ msgstr "Su Nivel de Ingresos Anual"
+
+#~ msgid ""
+#~ "Membership income is allowed to be empty when no hosting benefits are "
+#~ "chosen."
+#~ msgstr ""
+#~ "Se permite que el rango de ingresos esté vacío cuando no se eligen "
+#~ "beneficios de alojamiento."
+
+#~ msgid ""
+#~ "If you would like to add or change virtual private server settings, "
+#~ "please contact support."
+#~ msgstr ""
+#~ "Si desea añadir o cambiar la configuración del servidor privado virtual, "
+#~ "póngase en contacto con el servicio de soporte técnico."
+
+#~ msgid ""
+#~ "Please review your membership details and click change if you need to "
+#~ "make any corrections. We use a sliding scale to calculate your dues based "
+#~ "on your reported income, which means"
+#~ msgstr ""
+#~ "Por favor, revise los detalles de su membresía y haga clic en cambiar si "
+#~ "necesita hacer alguna corrección. Utilizamos una escala móvil para "
+#~ "calcular sus cuotas en función de sus ingresos, lo que significa que"
+
+#~ msgid ""
+#~ "your income level determines your dues, so please review it carefully."
+#~ msgstr ""
+#~ "su nivel de ingresos determina su cuota, así que revísela con atención."
+
+#~ msgid "If you need to make changes, click the change link."
+#~ msgstr "Si necesita hacer cambios, haga clic en el enlace de cambio."
+
+#~ msgid "Additional membership details"
+#~ msgstr "Detalles Adicionales de la Membresía"
+
+#~ msgid "toggle"
+#~ msgstr "alternar"
+
+#~ msgid "Total Storage"
+#~ msgstr "Almacenamiento total"
+
+#~ msgid "Number of Virtual Private Servers (VPS)"
+#~ msgstr "Número de Servidores Virtuales (VPS)"
+
+#~ msgid "VPS CPUs"
+#~ msgstr "CPUs de VPS"
+
+#~ msgid "VPS RAM"
+#~ msgstr "RAM DEL VPS"
+
+#~ msgid "VPS Solid State Disk"
+#~ msgstr "Disco de estado sólido VPS"
+
+#~ msgid "Authorized contacts"
+#~ msgstr "Contactos autorizados"
+
+#~ msgid ""
+#~ "Authorized contacts have full access to your membership and receive all "
+#~ "membership related email. If a contact is marked as a billing contact "
+#~ "they will also receive a notice when your membership invoices are due."
+#~ msgstr ""
+#~ "Los contactos autorizados tienen acceso completo a su membresía y reciben "
+#~ "todos los correos electrónicos relacionados con ella. Si un contacto está "
+#~ "marcado como contacto de pagos, también recibirá un aviso de los pagos "
+#~ "pendientes de su membresía."
+
+#~ msgid "Billing contact?"
+#~ msgstr "¿Contacto de Pagos?"
+
+#~ msgid "yes"
+#~ msgstr "sí"
+
+#~ msgid "Add new authorized contact"
+#~ msgstr "Añadir un nuevo contacto autorizado"
+
+#~ msgid "Add"
+#~ msgstr "Añadir"
+
+#~ msgid ""
+#~ "If you want a \"factura,\" once you've made the deposit\n"
+#~ "          or your bank transfer, click the \"Upload Receipt\" option "
+#~ "above\n"
+#~ "          and upload your scanned receipt. Make sure your \"comprobante\" "
+#~ "is\n"
+#~ "          sent later than the last day of billing month and it includes "
+#~ "all\n"
+#~ "          your tax information."
+#~ msgstr ""
+#~ "Si quieres una \"factura\", una vez que hayas realizdo el pago\n"
+#~ "          haz clic en la opción \"Subir Comprobante\" \n"
+#~ "          y sube un archivo de imágen de su comprobante de pago. "
+#~ "Asegúrese de que su \"comprobante\" se\n"
+#~ "          ha enviado antes del último día del mes de facturación y que "
+#~ "incluya toda\n"
+#~ "          su información fiscal."
+
+#~ msgid "Initializing membership values..."
+#~ msgstr "Inicialización de los valores de afiliación..."
+
+#~ msgid "Sorry, your token does not seem valid. "
+#~ msgstr "Lo siento, su ficha no parece válida."
+
+#~ msgid "Attempting to send token email..."
+#~ msgstr "Intentando enviar un correo electrónico simbólico..."
+
+#~ msgid "Attempting to submit payment..."
+#~ msgstr "Intentando enviar el pago..."
+
+#~ msgid "Attempting to save membership..."
+#~ msgstr "Intentando guardar la membresía..."
+
+#~ msgid "Uploading %1"
+#~ msgstr "Cargando %1"
+
+#~ msgid "Receipt uploaded."
+#~ msgstr "Recibo cargado."
+
+#~ msgid ""
+#~ "The membership was created, but I failed to update the Civi contact with "
+#~ "the external identifier: %1."
+#~ msgstr ""
+#~ "Se ha creado la membresía, pero no he podido actualizar el contacto Civi "
+#~ "con el identificador externo: %1."
+
+#~ msgid "That does not seem like a valid domain name: %1"
+#~ msgstr "No parece un nombre de dominio válido: %1"
+
+#~ msgid ""
+#~ "Your extra storage exceeds the limit. Please choose a higher plan "
+#~ "instead:."
+#~ msgstr ""
+#~ "Su almacenamiento extra excede el límite. Por favor, elija un plan "
+#~ "superior en su lugar:."
+
+#~ msgid "May First is a membership-based organization that"
+#~ msgstr "May First es una organización de afiliación que"
+
+#~ msgid ""
+#~ "May First engages in movement organizing and provides hosting services as "
+#~ "a benefit of membership. If you agree with our mission, then you are "
+#~ "welcome to join. All members are also expected to abide by our"
+#~ msgstr ""
+#~ "May First participa a la organización de movimientos y ofrece servicios "
+#~ "de alojamiento como beneficio de la membresía. Si estás de acuerdo con "
+#~ "nuestra misión, eres bienvenide a unirte. También se espera que toda la "
+#~ "membresía se atengan a nuestra"
+
+#~ msgid "Membership Agreement."
+#~ msgstr "Acuerdo de Membresía."
+
+#~ msgid ""
+#~ "Please indicate if your membership is individual, or on behalf of an "
+#~ "organization. Organization members get two votes and individual members "
+#~ "get one vote, otherwise the membership types receive the same benefits."
+#~ msgstr ""
+#~ "Por favor, indique si su membresía es individual o en nombre de una "
+#~ "organización. Las membresía de organizaciones tienen dos votos y las "
+#~ "membresías individuales un voto, por todo lo demás los dos tipos de "
+#~ "membresía reciben los mismos beneficios."
+
+#~ msgid ""
+#~ "Optionally provide your mobile phone so we can send you SMS alerts about "
+#~ "actions and meetings. Please use internationally formated phone number, "
+#~ "starting with a + and country Code. US numbers should be in the format "
+#~ "+1-555-555-5555. Mexican numbers: +52-99-9999-9999."
+#~ msgstr ""
+#~ "Si lo desea, indique su teléfono móvil para que podamos enviarle alertas "
+#~ "por SMS sobre acciones y reuniones. Por favor, utilice un número de "
+#~ "teléfono con formato internacional, que comience con una y el código del "
+#~ "país. Los números estadounidenses deben tener el formato +1-555-555-5555. "
+#~ "Números mexicanos: +52-9999999999."
+
+#~ msgid "Please describe your organizatin's mission and issue areas."
+#~ msgstr ""
+#~ "Por favor, describa la misión de su organización y las áreas temáticas."
+
+#~ msgid ""
+#~ "Please tell us about yourself and why you want to join May First, "
+#~ "including your organizing or activism interests or experience."
+#~ msgstr ""
+#~ "Háblanos de ti o de tu organización y de por qué quieres unirte a May "
+#~ "First, incluyendo tus intereses o experiencia organizacional o activismo."
+
+#~ msgid ""
+#~ "As a cooperative May First members collectively own our\n"
+#~ "          Internet servers. By becoming a member, your dues will support "
+#~ "the\n"
+#~ "          entire infrastructure and staff. Our technology team provides "
+#~ "free\n"
+#~ "          technical support as a benefit to all members."
+#~ msgstr ""
+#~ "Como cooperativa, toda la membreśia de May First son propietarios "
+#~ "colectivos de nuestra\n"
+#~ "          infraestructua de servidores de Internet. Al incribirte, tus "
+#~ "cuotas apoyarán a la\n"
+#~ "          sustentabilidad económica de toda la infraestructura y del "
+#~ "personal. Nuestro equipo tecnológico ofrece soporte técnico\n"
+#~ "          gratuito como beneficio para toda la membresía."
+
+#~ msgid ""
+#~ "A basic May First membership costs %1/year USD (%2 MXN) and\n"
+#~ "            comes with one email address and one Nextcloud account (for "
+#~ "file\n"
+#~ "            sharing). Optionally, you can request full hosting benefits, "
+#~ "which\n"
+#~ "            comes with all the benefits most individuals and "
+#~ "organizations need\n"
+#~ "            (and the option to request additional resources). The cost "
+#~ "of\n"
+#~ "            hosting benefits is based on a sliding scale depending on "
+#~ "your\n"
+#~ "            income level."
+#~ msgstr ""
+#~ "Una membresía básica de May First cuesta %1/año USD (%2 MXN) y\n"
+#~ "incluye una dirección de correo electrónico y una cuenta Nextcloud (para "
+#~ "compartir archivos).\n"
+#~ "Los beneficios completos de alojamiento con opcionales, y incluyen todo "
+#~ "los servicios (infomáticos) que la mayoría de los individuos y "
+#~ "organizaciones necesitan (más la opción de solicitar recursos "
+#~ "adicionales).\n"
+#~ "Los costos de los beneficios de alojamiento se basan en una escala móvil "
+#~ "que depende de su rango de ingresos."
+
+#~ msgid "Learn more about hosting benefits"
+#~ msgstr "Más información sobre las ventajas del alojamiento"
+
+#~ msgid ""
+#~ "May First members can choose to pay membership dues in either\n"
+#~ "            the US Dollars (USD) Mexican Pesos (MXN). If you choose to "
+#~ "pay in\n"
+#~ "            Mexican Pesos you may request a fiscal receipt (\"factura\") "
+#~ "for\n"
+#~ "            tax purposes. If you pay in MXN, the exchange rate for the\n"
+#~ "            current year is 1 USD = %1 MXN. The exchange rate may change "
+#~ "next\n"
+#~ "            year when dues are renewed."
+#~ msgstr ""
+#~ "Los miembros de May First pueden elegir pagar sus cuotas en\n"
+#~ "            dólares estadounidenses (USD) o pesos mexicanos (MXN). Si "
+#~ "elige pagar en\n"
+#~ "            pesos mexicanos pueden solicitar un recibo fiscal "
+#~ "(\"factura\") para\n"
+#~ "            para fines fiscales. Si paga en MXN, el tipo de cambio para "
+#~ "el\n"
+#~ "            año en curso es de 1 USD = %1 MXN. El tipo de cambio puede "
+#~ "cambiar el próximo\n"
+#~ "            año cuando se renueven las cuotas."
+
+#~ msgid ""
+#~ "Based on your income tier, the options unavailable to you are greyed out. "
+#~ "Choose the services and storage that best fit your needs. If you cannot "
+#~ "afford these services you may request a dues reduction on the final "
+#~ "confirmation page."
+#~ msgstr ""
+#~ "En función de su nivel de ingresos, las opciones que no están disponibles "
+#~ "para usted aparecen en gris. Elija los servicios y el almacenamiento que "
+#~ "mejor se adapten a sus necesidades. Si no puedes pagar estos servicios, "
+#~ "puedes solicitar una reducción de la cuota en la página de confirmación "
+#~ "final."
+
+#~ msgid ""
+#~ "Would you like to initialize your membership with a domain name, such as "
+#~ "myorganization.org? You can provide a domain name that you currently own, "
+#~ "or one that you plan to purchase. If you do not provide a domain name, we "
+#~ "will provide you one, such as myorganization.mayfirst.info."
+#~ msgstr ""
+#~ "¿Desea inicializar su afiliación con un nombre de dominio, como por "
+#~ "ejemplo myorganization.org? Puede proporcionar un nombre de dominio que "
+#~ "posea actualmente o uno que tenga previsto adquirir. Si no proporciona un "
+#~ "nombre de dominio, nosotros le proporcionaremos uno, como por ejemplo "
+#~ "myorganization.mayfirst.info."
+
+#~ msgid ""
+#~ "Would you like additional storage? Please enter the number of extra "
+#~ "Gigabytes that you would like. Each extra 10GB costs the following amount "
+#~ "per year: "
+#~ msgstr ""
+#~ "¿Desea almacenamiento adicional? Por favor, introduzca el número de "
+#~ "Gigabytes extra que desea. Cada 10GB extra cuesta la siguiente cantidad "
+#~ "por año:"
+
+#~ msgid "Additional resources?"
+#~ msgstr "¿Recursos adicionales?"
+
+#~ msgid ""
+#~ "Please indicate how many CPU cores you would like (limit 4). Each CPU "
+#~ "core is $10/month."
+#~ msgstr ""
+#~ "Por favor, indique cuántos núcleos de CPU desea (límite 4). Cada núcleo "
+#~ "de CPU cuesta 10 $/mes."
+
+#~ msgid ""
+#~ "How much total RAM distributed amongst your virtual private servers? Each "
+#~ "GB of RAM is $10/month. Limit: 8."
+#~ msgstr ""
+#~ "¿Qué cantidad de RAM total se distribuye entre sus servidores privados "
+#~ "virtuales? Cada GB de RAM cuesta 10$/mes. Límite: 8."
+
+#~ msgid ""
+#~ "How many GB of SSD would you like distributed amongst your virtual "
+#~ "private servers? The cost is $2 per GB of SSD with a limit of 20 GB."
+#~ msgstr ""
+#~ "¿Cuántos GB de SSD desea distribuir entre sus servidores privados "
+#~ "virtuales? El coste es de 2 dólares por GB de SSD con un límite de 20 GB."
+
+#~ msgid ""
+#~ "Please let us know if you would like to request a reduction in your dues. "
+#~ "Please includes as much information as possible, including your current "
+#~ "budget, volunteer and paid staff and, if requesting extra resources, how "
+#~ "you plan to use them."
+#~ msgstr ""
+#~ "Por favor, infórmenos si desea solicitar una reducción de sus cuotas. "
+#~ "Incluya toda la información posible, incluyendo su presupuesto actual, el "
+#~ "personal voluntario y remunerado y, si solicita recursos adicionales, "
+#~ "cómo piensa utilizarlos."
+
+#~ msgid ""
+#~ "Based on your Income (budget) range the following membership plans are "
+#~ "available to you. You cannot choose a plan lower then your income "
+#~ "(budget) range, but you can choose a higher plan if you would like to pay "
+#~ "more in dues and receive more disk space."
+#~ msgstr ""
+#~ "En base a su rango de ingresos (presupuesto) los siguientes planes de "
+#~ "membresía están disponibles para usted. No puedes elegir un plan inferior "
+#~ "a tu rango de ingresos (presupuesto), pero puedes elegir un plan superior "
+#~ "si quieres pagar más en cuotas y recibir más espacio en disco."
+
+#~ msgid ""
+#~ "Please indicate your approximate annual income or organization's\n"
+#~ "      revenue. If it varies from year to year, use the\n"
+#~ "      amount you expect to earn this year. This information is not "
+#~ "verified - we\n"
+#~ "      depend on your honesty and commitment to pay what you can."
+#~ msgstr ""
+#~ "Indique sus ingresos anuales aproximados o los ingresos de la "
+#~ "organización\n"
+#~ "      ingresos. Si varía de un año a otro, utilice la\n"
+#~ "      cantidad que espera ganar este año. Esta información no se verifica "
+#~ "- dependemos\n"
+#~ "      dependemos de su honestidad y compromiso de pagar lo que pueda."
